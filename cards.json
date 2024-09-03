@@ -224,7 +224,9 @@
     "defense": 0,
     "power": 1,
     "type": "creature",
-    "abilities": "At the end of your turn, if you control four \"Blight\" sacrifice all your creatures",
+    "abilities": [
+      "At the end of your turn, if you control four \"Blight\" sacrifice all your creatures"
+    ],
     "keywords": [
       {
         "name": "kin call"
