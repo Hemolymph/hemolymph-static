@@ -1,0 +1,25 @@
+name: Deploy to Home Server
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up SSH
+      uses: webfactory/ssh-agent@v0.8.1
+      with:
+        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+    - name: Sync files to home server
+      run: |
+        rsync -avz --delete \
+        -e "ssh -o StrictHostKeyChecking=no" \
+        ./ root@hemolymph.net:/home/static
