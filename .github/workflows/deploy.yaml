@@ -6,6 +6,24 @@ on:
       - master
 
 jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Setup Rust
+      uses: actions-rs/toolchain@v1
+      with:
+        toolchain: stable
+        default: true
+        override: true
+
+    - name: Test cards.json
+      working-directory: ./tests
+      run: cargo test
+        
   deploy:
     runs-on: ubuntu-latest
 
@@ -19,6 +37,7 @@ jobs:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
     - name: Sync files to home server
+      working-directory: ./files
       run: |
         rsync -avz --delete \
         -e "ssh -o StrictHostKeyChecking=no" \
