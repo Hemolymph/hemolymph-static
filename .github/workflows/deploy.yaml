@@ -1,6 +1,6 @@
 name: Deploy to Home Server
 
-on: [push, pull_request]
+on: [push]
 
 jobs:
   test:
