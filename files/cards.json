@@ -2528,14 +2528,14 @@
   {
     "id": "tearful_goodbye",
     "name": "Tearful Goodbye",
-    "description": "X is equal to target friendly creature's blood cost.\nDestroy target creature.",
+    "description": "X is equal to target friendly creature's blood cost.\nDestroy that creature.",
     "cost": "X",
     "health": 0,
     "defense": 0,
     "power": 0,
     "type": "command",
     "abilities": [
-      "X is equal to target friendly creature's blood cost.\nDestroy target creature."
+      "X is equal to target friendly creature's blood cost.\nDestroy that creature."
     ],
     "set": "Fun And Games",
     "legality": {
