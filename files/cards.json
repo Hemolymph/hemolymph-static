@@ -1581,7 +1581,7 @@
     "cost": 4,
     "health": 5,
     "defense": 0,
-    "power": 2,
+    "power": 1,
     "type": "creature",
     "abilities": [
       "When this creature is played, name a kin.\n\n Whenever a creature of that kin dies, gain 1 blood."
