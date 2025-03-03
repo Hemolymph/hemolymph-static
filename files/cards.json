@@ -1581,7 +1581,7 @@
     "cost": 4,
     "health": 5,
     "defense": 0,
-    "power": 2,
+    "power": 1,
     "type": "creature",
     "abilities": [
       "When this creature is played, name a kin.\n\n Whenever a creature of that kin dies, gain 1 blood."
@@ -1649,7 +1649,7 @@
     "id": "slippery_frog",
     "name": "Slippery Frog",
     "description": "",
-    "cost": 2,
+    "cost": 3,
     "health": 3,
     "defense": 1,
     "power": 2,
