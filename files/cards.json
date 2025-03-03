@@ -2574,21 +2574,26 @@
   {
     "id": "miscommunicated_orders",
     "name": "Miscommunicated Orders",
-    "description": "Each player reveals a command from their hand or reveals cards from their deck until they reveal a command.\n\nWhichever command has the higher blood cost is played for free.",
+    "description": "Each player reveals a command from their hand or reveals cards from their deck until they reveal a command.\n\nWhichever command has the higher blood cost is played for free. Shuffle.",
     "cost": 3,
     "health": 0,
     "defense": 0,
     "power": 0,
     "type": "command",
     "abilities": [
-      "Each player reveals a command from their hand or reveals cards from their deck until they reveal a command.\n\nWhichever command has the higher blood cost is played for free."
+      "Each player reveals a command from their hand or reveals cards from their deck until they reveal a command.\n\nWhichever command has the higher blood cost is played for free. Shuffle."
     ],
     "set": "Fun And Games",
     "legality": {
       "bloodless": "y",
       "tournaments": "y",
       "bloodful": "y"
-    }
+    },
+    "functions": [
+      "shuffle deck",
+      "reveal card",
+      "execute command"
+    ]
   },
   {
     "id": "circle_of_consequence",
