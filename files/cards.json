@@ -68,7 +68,7 @@
         ]
       }
     ],
-    "description": "Insect Kin\n\nWhen this creature attacks and is blocked, gain one blood.",
+    "description": "Insect Kin\n\nWhen this creature attacks a creature, gain one blood.",
     "cost": 1,
     "health": 1,
     "defense": 1,
@@ -78,7 +78,7 @@
       "insect"
     ],
     "abilities": [
-      "When this creature attacks and is blocked, gain one blood."
+      "When this creature attacks a creature, gain one blood."
     ],
     "set": "The Forest",
     "legality": {
@@ -111,14 +111,14 @@
         ]
       }
     ],
-    "description": "Pay 1 blood for each creature that you wish to sacrifice. Sacrifice those creatures.",
+    "description": "Pay X blood to sacrifice X creatures.",
     "cost": 0,
     "health": 0,
     "defense": 0,
     "power": 0,
     "type": "command",
     "abilities": [
-      "Pay 1 blood for each creature that you wish to sacrifice. Sacrifice those creatures."
+      "Pay X blood to sacrifice X creatures."
     ],
     "set": "The Kingdoms",
     "legality": {
@@ -183,7 +183,7 @@
   {
     "id": "timestopper",
     "name": "Timestopper",
-    "description": "All friendly creatures attack without ending your turn.",
+    "description": "All friendly creatures deal damage.",
     "cost": 8,
     "health": 0,
     "defense": 0,
@@ -250,7 +250,7 @@
   {
     "id": "blightkin_child",
     "name": "Blightkin Child",
-    "description": "When Played: Enemy \"Blight\" creatures facing empty spaces change sides",
+    "description": "When played, all unfriendly \"Blight\" facing empty spaces change sides",
     "cost": 3,
     "health": 2,
     "defense": 1,
@@ -291,7 +291,7 @@
     "id": "bug_singer",
     "name": "Bug Singer",
     "description": [
-      "Insect Kin\n\nWhen Played, friendly ",
+      "Insect Kin\n\nWhen played, friendly ",
       {
         "display": "Insect creatures",
         "search": "t:creature k:insect"
@@ -386,7 +386,7 @@
   {
     "id": "cult_initiate",
     "name": "Cult Initiate",
-    "description": "Does not give blood when killed",
+    "description": "When killed, once you gain blood, you do not.",
     "cost": 1,
     "health": 1,
     "defense": 1,
@@ -419,7 +419,7 @@
       }
     ],
     "description": [
-      "When Played: Shuffle a ",
+      "When played, shuffle a ",
       {
         "display": "Grand Design",
         "id": "grand_design"
@@ -501,14 +501,14 @@
   {
     "id": "exiled_featherman",
     "name": "Exiled Featherman",
-    "description": "At the beginning of your turn, pick one friendly card to become Flying until the end of your turn.",
+    "description": "At the beginning of your turn, one friendly creature gains 'Flying' until the end of your turn.",
     "cost": 1,
     "health": 2,
     "defense": 1,
     "power": 1,
     "type": "creature",
     "abilities": [
-      "At the beginning of your turn, pick one friendly card to become Flying until the end of your turn."
+      "At the beginning of your turn, one friendly creature gains 'Flying' until the end of your turn."
     ],
     "set": "The Forest",
     "legality": {
@@ -531,7 +531,7 @@
         "display": "Cult Initiate",
         "id": "cult_initiate"
       },
-      "\n\nCan be Called without evolving.\n\nSpend 2 blood X times to increase next attack by X."
+      "\n\nCan be Called without evolving.\n\nPay 2 blood X times to increase next attack by X."
     ],
     "cost": 2,
     "health": 1,
@@ -637,7 +637,7 @@
         "display": "1 Cost Insect Kin",
         "search": "c:1 k:\"insect\""
       },
-      "\n\nBifurcated Strike\nInsect Kin\n\nWhen this creature attacks and is blocked, gain one blood."
+      "\n\nBifurcated Strike\nInsect Kin\n\nWhen this creature attacks a creature, gain one blood."
     ],
     "cost": 2,
     "health": 2,
@@ -742,14 +742,14 @@
   {
     "id": "leech",
     "name": "Leech",
-    "description": "When killing a creature, gain the amount of blood the opponent would gain. They do not gain it.\n\nWhen killed, your opponent gains 1 blood.",
+    "description": "When killing a creature, when your opponent gains an amount of blood, you gain it instead.\n\nWhen killed, your opponent gains 1 blood.",
     "cost": 2,
     "health": 2,
     "defense": 1,
     "power": 1,
     "type": "creature",
     "abilities": [
-      "When killing a creature, gain the amount of blood the opponent would gain. They do not gain it.",
+      "When killing a creature, when your opponent gains an amount of blood, you gain it instead.",
       "When killed, your opponent gains 1 blood."
     ],
     "set": "The Forest",
@@ -778,7 +778,7 @@
       }
     ],
     "abilities": [
-      "After this creature attacks, it is destroyed."
+      "When this creature attacks, it is destroyed."
     ],
     "set": "The Forest",
     "legality": {
@@ -904,14 +904,14 @@
   {
     "id": "mechanic",
     "name": "Mechanic",
-    "description": "When Played:\nPlace a \"Broken Robot\" from your hand in the space opposing this card for free.",
+    "description": "When played, play a \"Broken Robot\" from your hand in the space opposing this card for free.",
     "cost": 2,
     "health": 2,
     "defense": 1,
     "power": 1,
     "type": "creature",
     "abilities": [
-      "When Played:\nPlace a \"Broken Robot\" from your hand in the space opposing this card for free."
+      "When played, place a \"Broken Robot\" from your hand in the space opposing this card."
     ],
     "set": "The Forest",
     "legality": {
@@ -969,7 +969,7 @@
     "id": "sign",
     "name": "Sign",
     "description": "Spell\n\nWhen Played: Move any other friendly creature to an empty space to its left or right.",
-    "cost": 1,
+    "cost": 0,
     "health": 1,
     "defense": 0,
     "power": 0,
@@ -1112,7 +1112,7 @@
   {
     "id": "black_queen",
     "name": "Black Queen",
-    "description": "Draw 2 cards from your opponent's creature deck.",
+    "description": "Move a creature chosen by your opponent from your discard pile to your hand.",
     "cost": 2,
     "health": 0,
     "defense": 0,
@@ -1134,7 +1134,7 @@
   {
     "id": "crypt_mantis",
     "name": "Crypt Mantis",
-    "description": "Insect Kin\nBifurcated Strike\n\nDuring your turn, you may sacrifice any creature.\n\nWhenever you sacrifice a creature, add +1 health or +1 strength to this creature.",
+    "description": "Insect Kin\nBifurcated Strike\n\nAt any point during your setup phase, you may sacrifice any creature.\n\nWhenever you sacrifice a creature, add +1 health or +1 strength to this creature.",
     "cost": 4,
     "health": 3,
     "defense": 2,
@@ -1214,14 +1214,14 @@
   {
     "id": "spider",
     "name": "Spider",
-    "description": "When this creature attacks an Ensnared creature, attack it once more.",
-    "cost": 3,
+    "description": "Every turn, once this creature attacks a creature with 'Ensnared', attack it once more.",
+    "cost": 1,
     "health": 2,
     "defense": 2,
     "power": 2,
     "type": "creature",
     "abilities": [
-      "When this creature attacks an Ensnared creature, attack it once more."
+      "Every turn, once this creature attacks a creature with 'Ensnared', attack it once more."
     ],
     "set": "The Forest",
     "legality": {
@@ -1242,7 +1242,7 @@
         "display": "Spider",
         "id": "spider"
       },
-      "\nWhen Attacked: The attacking creature becomes Ensnared.\n\nWhen Killed: Summons a ",
+      "\nWhen attacked, the attacking creature gains 'Ensnared'.\n\nWhen killed, summon a ",
       {
         "display": "Spider",
         "id": "spider"
@@ -1272,7 +1272,7 @@
   {
     "id": "pulsating_lens",
     "name": "Pulsating Lens",
-    "description": "Sorcery Kin\n\nDraw a card from your deck.",
+    "description": "Sorcery Kin\n\nDraw a card.",
     "cost": 1,
     "health": 0,
     "defense": 0,
@@ -1282,7 +1282,7 @@
       "sorcery"
     ],
     "abilities": [
-      "Draw a card from your deck"
+      "Draw a card"
     ],
     "set": "The Forest",
     "legality": {
@@ -1411,7 +1411,7 @@
   {
     "id": "bee",
     "name": "Bee",
-    "description": "Bee Kin\nKin Strength\n\nThis creature is destroyed after it attacks.",
+    "description": "Bee Kin\nKin Strength\n\nWhen this creature deals damage, it is destroyed.",
     "cost": 1,
     "health": 1,
     "defense": 0,
@@ -1435,12 +1435,12 @@
     "id": "royal_scientist",
     "name": "Royal Scientist",
     "description": [
-      "Blue Kingdom Kin\n\nAs long as you control another ",
+      "Blue Kingdom Kin\n\nWhile you control another ",
       {
         "display": "Blue Kingdom creature",
         "search": "t:creature k:\"blue kingdom\""
       },
-      ", your opponent can only play one card each turn. They may sacrifice X creatures to play X additional cards."
+      ", your opponent can play at most two cards each turn. They may sacrifice X creatures to play X additional cards."
     ],
     "cost": 5,
     "health": 2,
@@ -1451,7 +1451,7 @@
       "blue kingdom"
     ],
     "abilities": [
-      "As long as you control another Blue Kingdom creature, your opponent can only play one card each turn. They may sacrifice X creatures to play X additional cards."
+      "As long as you control another Blue Kingdom creature, your opponent can only play two cards each turn. They may sacrifice X creatures to play X additional cards."
     ],
     "set": "The Kingdoms",
     "legality": {
@@ -1470,7 +1470,7 @@
         "display": "Blue Kingdom creature",
         "search": "t:creature k:\"blue kingdom\""
       },
-      " enters the board, this creature cannot be attacked next turn."
+      " enters the board, this creature cannot be attacked until your next turn."
     ],
     "cost": 2,
     "health": 1,
@@ -1481,7 +1481,7 @@
       "blue kingdom"
     ],
     "abilities": [
-      "When another friendly Blue Kingdom creature enters the board, this creature cannot be attacked next turn."
+      "When another friendly Blue Kingdom creature enters the board, this creature cannot be attacked until the start of your turn."
     ],
     "set": "The Kingdoms",
     "legality": {
@@ -1497,7 +1497,7 @@
   {
     "id": "blue_rook",
     "name": "Blue Rook",
-    "description": "Blue Kingdom Kin\n\nDuring your setup phase, you may move this card to any space to its left or right, if the path to it is unblocked.",
+    "description": "Blue Kingdom Kin\n\nYou may move this card to any unobstructed space.",
     "cost": 3,
     "health": 2,
     "defense": 2,
@@ -1507,7 +1507,7 @@
       "blue kingdom"
     ],
     "abilities": [
-      "During your setup phase, you may move this card to any space to its left or right, if the path to it is unblocked."
+      "During your setup phase, you may move this card to any unobstructed space."
     ],
     "set": "The Kingdoms",
     "legality": {
@@ -1623,7 +1623,7 @@
   {
     "id": "high_noon",
     "name": "High Noon",
-    "description": "You and your opponent draw a card and reveal it.\n\nWhoever drew the card wih greatest power, plays it. The other one discards it.\n\nIf both have equal power, both play the card they drew.",
+    "description": "You and your opponent draw a card and reveal it.\n\nThe player who drew the card wih greatest power, plays it. The other one discards it.\n\nIf both have equal power, both play the card they drew.",
     "cost": 3,
     "health": 0,
     "defense": 0,
@@ -1750,7 +1750,7 @@
   {
     "id": "wall_of_living_rock",
     "name": "Wall Of Living Rock",
-    "description": "When this creature enters the board, draw a card.\n\nWhen this creature dies, you do not gain any blood.",
+    "description": "When this creature enters the board, draw a card.\n\nWhen killed, when you gain blood, you do not.",
     "cost": 1,
     "health": 3,
     "defense": 0,
@@ -1849,7 +1849,7 @@
   {
     "id": "bluejay",
     "name": "Bluejay",
-    "description": "Flying\nPay 2 blood for this card to gain Bifurcated Strike, then attack, then lose Bifurcated Strike",
+    "description": "Flying\nPay 2 blood to damage the spaces adjacent to the space opposing this creature.",
     "cost": 3,
     "health": 2,
     "keywords": [
@@ -1861,7 +1861,7 @@
     "power": 1,
     "type": "creature",
     "abilities": [
-      "Pay 2 blood for this card to gain Bifurcated Strike, then attack, then lose Bifurcated Strike"
+      "Pay 2 blood to damage the spaces adjacent to the space opposing this creature."
     ],
     "set": "The Forest",
     "legality": {
@@ -2168,7 +2168,7 @@
   {
     "id": "last_unwisher",
     "name": "Last Unwisher",
-    "description": "When this creature kills another one, remove the text form the killed creature",
+    "description": "When this creature kills another creature, it loses all text",
     "cost": 2,
     "health": 2,
     "defense": 0,
@@ -2430,7 +2430,7 @@
   {
     "id": "deep_cover",
     "name": "Deep Cover",
-    "description": "Summon a creature from your hand hand face-down. Its Flip cost is equal to its Blood cost.",
+    "description": "Summon a creature from your hand hand face-down. Its Flip cost becomes equal to its Blood cost.",
     "cost": 2,
     "health": 0,
     "defense": 0,
