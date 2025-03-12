@@ -2769,5 +2769,122 @@
       "graveyard matters"
     ],
     "flavor_text": "I don't like this plan anymore, Luna\nPlease, there has to be a better way"
+  },
+  {
+    "id": "wrath_of_na",
+    "name": "Wrath Of Nä",
+    "description": [
+      "Cult of Nä kin\n\nDestroy all",
+      {
+        "display": "creatures not of cult of nä kin",
+        "search": "t:creature -k:\"cult of nä\""
+      },
+      "."
+    ],
+    "cost": 6,
+    "health": 0,
+    "defense": 0,
+    "power": 0,
+    "type": "command",
+    "abilities": [
+      "Destroy all creatures not of cult of nä kin"
+    ],
+    "set": "The Forest",
+    "legality": {
+      "bloodless": "y",
+      "tournaments": "y",
+      "bloodful": "y"
+    },
+    "functions": [
+      "destroy creatures"
+    ]
+  },
+  {
+    "id": "teachings_of_na",
+    "name": "Teachings Of Nä",
+    "description": [
+      "Cult of Nä kin\n\nSearch your deck for 2",
+      {
+        "display": "cult of nä kin cards",
+        "search": "k:\"cult of nä\""
+      },
+      ", then put them into your hand.\n\nShuffle."
+    ],
+    "cost": 1,
+    "health": 0,
+    "defense": 0,
+    "power": 0,
+    "type": "command",
+    "abilities": [
+      "Search your deck for 2 cult of nä kin cards, then put them into your hand. Shuffle."
+    ],
+    "set": "The Forest",
+    "legality": {
+      "bloodless": "y",
+      "tournaments": "y",
+      "bloodful": "y"
+    },
+    "functions": [
+      "search deck"
+    ]
+  },
+  {
+    "id": "might_of_na",
+    "name": "Might Of Nä",
+    "description": [
+      "Cult of Nä kin\n\nAll friendly ",
+      {
+        "display": "cult of nä kin",
+        "search": "k:\"cult of nä\""
+      },
+      " deal damage twice."
+    ],
+    "cost": 6,
+    "health": 0,
+    "defense": 0,
+    "power": 0,
+    "type": "command",
+    "abilities": [
+      "All friendly cult of nä kin deal damage twice."
+    ],
+    "set": "The Forest",
+    "legality": {
+      "bloodless": "y",
+      "tournaments": "y",
+      "bloodful": "y"
+    },
+    "functions": [
+      "deal damage"
+    ]
+  },
+  {
+    "id": "knowledge_of_na",
+    "name": "Knowledge Of Nä",
+    "description": [
+      "Cult of Nä kin\n\nDraw 4 cards. For each ",
+      {
+        "display": "cult of nä kin",
+        "search": "k:\"cult of nä\""
+      },
+      " in play, draw a card."
+    ],
+    "cost": 6,
+    "health": 0,
+    "defense": 0,
+    "power": 0,
+    "type": "command",
+    "abilities": [
+      "Draw 4 cards.",
+      "For each cult of nä kin in play, draw a card"
+    ],
+    "set": "The Forest",
+    "legality": {
+      "bloodless": "y",
+      "tournaments": "y",
+      "bloodful": "y"
+    },
+    "functions": [
+      "draw cards"
+    ]
   }
 ]
