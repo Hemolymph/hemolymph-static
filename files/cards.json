@@ -2798,6 +2798,9 @@
       "tournaments": "y",
       "bloodful": "y"
     },
+    "kins": [
+      "cult of nä"
+    ],
     "functions": [
       "destroy creatures"
     ]
@@ -2827,6 +2830,9 @@
       "tournaments": "y",
       "bloodful": "y"
     },
+    "kins": [
+      "cult of nä"
+    ],
     "functions": [
       "search deck"
     ]
@@ -2856,6 +2862,9 @@
       "tournaments": "y",
       "bloodful": "y"
     },
+    "kins": [
+      "cult of nä"
+    ],
     "functions": [
       "deal damage"
     ]
@@ -2886,6 +2895,9 @@
       "tournaments": "y",
       "bloodful": "y"
     },
+    "kins": [
+      "cult of nä"
+    ],
     "functions": [
       "draw cards"
     ]
