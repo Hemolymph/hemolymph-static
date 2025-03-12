@@ -2777,7 +2777,7 @@
     "id": "wrath_of_na",
     "name": "Wrath Of Nä",
     "description": [
-      "Cult of Nä kin\n\nDestroy all",
+      "Cult of Nä kin\n\nDestroy all ",
       {
         "display": "creatures not of cult of nä kin",
         "search": "t:creature -k:\"cult of nä\""
@@ -2809,7 +2809,7 @@
     "id": "teachings_of_na",
     "name": "Teachings Of Nä",
     "description": [
-      "Cult of Nä kin\n\nSearch your deck for 2",
+      "Cult of Nä kin\n\nSearch your deck for 2 ",
       {
         "display": "cult of nä kin cards",
         "search": "k:\"cult of nä\""
