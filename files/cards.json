@@ -538,6 +538,9 @@
     "defense": 1,
     "power": 1,
     "type": "creature",
+    "kins": [
+      "cult of nä"
+    ],
     "keywords": [
       {
         "name": "devours",
