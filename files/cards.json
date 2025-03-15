@@ -2906,7 +2906,7 @@
     "id": "rain_deer",
     "name": "Rain Deer",
     "description": [
-      "When played, shuffle 5 new",
+      "When played, shuffle 5 new ",
       {
         "display": "\"Spore Puff\"",
         "search": "n:\"spore puff\""
