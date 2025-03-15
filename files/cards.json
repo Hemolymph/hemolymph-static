@@ -419,9 +419,9 @@
       }
     ],
     "description": [
-      "When played, shuffle a ",
+      "When played, shuffle a new ",
       {
-        "display": "Grand Design",
+        "display": "\"Grand Design\"",
         "id": "grand_design"
       },
       " vestige into your deck."
@@ -2900,6 +2900,61 @@
     ],
     "functions": [
       "draw cards"
+    ]
+  },
+  {
+    "id": "rain_deer",
+    "name": "Rain Deer",
+    "description": [
+      "When played, shuffle 5 new",
+      {
+        "display": "\"Spore Puff\"",
+        "search": "n:\"spore puff\""
+      },
+      " vestiges into your deck."
+    ],
+    "cost": 1,
+    "health": 1,
+    "defense": 1,
+    "power": 1,
+    "type": "creature",
+    "abilities": [
+      "When played, shuffle 5 new \"Spore Puff\" vestiges into your deck."
+    ],
+    "set": "The Forest",
+    "legality": {
+      "bloodless": "y",
+      "tournaments": "y",
+      "bloodful": "y"
+    },
+    "functions": [
+      "shuffle deck",
+      "shuffle vestige into deck"
+    ]
+  },
+  {
+    "id": "spore_puff",
+    "name": "Spore Puff",
+    "description": [
+      "Deal 1 damage to the healh pool.\n\nDraw a card."
+    ],
+    "cost": 1,
+    "health": 0,
+    "defense": 0,
+    "power": 0,
+    "type": "command vestige",
+    "abilities": [
+      "Deal 1 damage to the healh pool.\n\nDraw a card."
+    ],
+    "set": "The Forest",
+    "legality": {
+      "bloodless": "y",
+      "tournaments": "y",
+      "bloodful": "y"
+    },
+    "functions": [
+      "deal damage",
+      "draw card"
     ]
   }
 ]
