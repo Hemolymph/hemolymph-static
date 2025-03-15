@@ -2927,6 +2927,7 @@
       "tournaments": "y",
       "bloodful": "y"
     },
+    "flavor_text": "They follow heavy thunderstorms.",
     "functions": [
       "shuffle deck",
       "shuffle vestige into deck"
