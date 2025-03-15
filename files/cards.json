@@ -1219,9 +1219,9 @@
     "name": "Spider",
     "description": "Every turn, once this creature attacks a creature with 'Ensnared', attack it once more.",
     "cost": 1,
-    "health": 2,
+    "health": 1,
     "defense": 2,
-    "power": 2,
+    "power": 1,
     "type": "creature",
     "abilities": [
       "Every turn, once this creature attacks a creature with 'Ensnared', attack it once more."
