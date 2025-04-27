@@ -2971,5 +2971,136 @@
       "draw card",
       "draw blood flask"
     ]
+  },
+  {
+    "id": "black_knight",
+    "name": "Black Knight",
+    "description": [
+      "Black Kingdom Kin\n\nWhen this creature enters the board, search your deck for a \"Black Queen\", reveal it, then put it in your hand.\n\nShuffle."
+    ],
+    "cost": 3,
+    "health": 3,
+    "defense": 3,
+    "power": 2,
+    "type": "creature",
+    "kins": [
+      "Black Kingdom"
+    ],
+    "abilities": [
+      "When this creature enters the board, search your deck for a \"Black Queen\", reveal it, then put it in your hand.",
+      "Shuffle"
+    ],
+    "set": "The Black Kingdom",
+    "legality": {
+      "bloodless": "y",
+      "tournaments": "y",
+      "bloodful": "y"
+    },
+    "functions": [
+      "draw card",
+      "draw blood flask"
+    ]
+  },
+  {
+    "id": "black_squire",
+    "name": "Black Squire",
+    "description": [
+      "Black Kingdom Kin\n\nWhile this creature is on the board, Black Kingdom kin creatures gain +1/+1/+0."
+    ],
+    "cost": 2,
+    "health": 1,
+    "defense": 0,
+    "power": 1,
+    "type": "creature",
+    "kins": [
+      "Black Kingdom"
+    ],
+    "abilities": [
+      "While this creature is on the board, Black Kingdom kin creatures gain +1/+1/+0."
+    ],
+    "set": "The Black Kingdom",
+    "legality": {
+      "bloodless": "y",
+      "tournaments": "y",
+      "bloodful": "y"
+    },
+    "functions": [
+      "draw card",
+      "draw blood flask"
+    ]
+  },
+  {
+    "id": "black_blood_flask",
+    "name": "Black Blood Flask",
+    "description": [
+      "Black Kingdom Kin\n\nWhenever a Black Kingdom kin creature dies, gain 1 blood.\n\nThis flask gives no blood when it enters.\n\nThis flask gives no blood when it dies."
+    ],
+    "cost": 2,
+    "health": 2,
+    "defense": 0,
+    "power": 0,
+    "type": "blood flask",
+    "abilities": [
+      "Whenever a Black Kingdom kin creature dies, gain 1 blood.",
+      "This flask gives no blood when it enters.",
+      "This flask gives no blood when it dies."
+    ],
+    "set": "The Black Kingdom",
+    "legality": {
+      "bloodless": "y",
+      "tournaments": "y",
+      "bloodful": "y"
+    },
+    "functions": [
+      "draw card",
+      "draw blood flask"
+    ]
+  },
+  {
+    "id": "mistake",
+    "name": "Mistake",
+    "description": [
+      "Black Kingdom Kin\n\nThis creature gives no blood when it dies."
+    ],
+    "cost": 0,
+    "health": 1,
+    "defense": 1,
+    "power": 1,
+    "type": "creature",
+    "kins": [
+      "Black Kingdom"
+    ],
+    "abilities": [
+      "This creature gives no blood when it dies."
+    ],
+    "set": "The Black Kingdom",
+    "legality": {
+      "bloodless": "y",
+      "tournaments": "y",
+      "bloodful": "y"
+    },
+    "functions": []
+  },
+  {
+    "id": "unwilling_draft",
+    "name": "Unwilling Draft",
+    "description": [
+      "Play a creature from your discard pile.\n\nIt enters as a 1/1/1 Black Kingdom kin."
+    ],
+    "cost": 3,
+    "health": 0,
+    "defense": 0,
+    "power": 0,
+    "type": "command",
+    "abilities": [
+      "Play a creature from your discard pile. It enters as a 1/1/1 Black Kingdom kin."
+    ],
+    "set": "The Black Kingdom",
+    "legality": {
+      "bloodless": "y",
+      "tournaments": "y",
+      "bloodful": "y"
+    },
+    "functions": []
   }
 ]
