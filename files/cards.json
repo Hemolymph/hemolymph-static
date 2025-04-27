@@ -1137,7 +1137,7 @@
   {
     "id": "crypt_mantis",
     "name": "Crypt Mantis",
-    "description": "Insect Kin\nBifurcated Strike\n\nAt any point during your setup phase, you may sacrifice any creature.\n\nWhenever you sacrifice a creature, add +1 health or +1 strength to this creature.",
+    "description": "Insect Kin\nBifurcated Strike\n\nAt any point during your setup phase, you may sacrifice any creature.\n\nWhenever you sacrifice a creature, add +1 health or +1 power to this creature.",
     "cost": 4,
     "health": 3,
     "defense": 2,
@@ -1153,7 +1153,7 @@
     ],
     "abilities": [
       "During your turn, you may sacrifice any creature.",
-      "Whenever you sacrifice a creature, add +1 health or +1 strength to this creature."
+      "Whenever you sacrifice a creature, add +1 health or +1 power to this creature."
     ],
     "set": "The Forest",
     "legality": {
@@ -2511,14 +2511,14 @@
   {
     "id": "titan_carcass",
     "name": "Titan Carcass",
-    "description": "Destroy a creature with strength 4 or more",
+    "description": "Destroy a creature with power 4 or more",
     "cost": 4,
     "health": 0,
     "defense": 0,
     "power": 0,
     "type": "command",
     "abilities": [
-      "Destroy a creature with strength 4 or more"
+      "Destroy a creature with power 4 or more"
     ],
     "set": "Normality",
     "legality": {
@@ -2750,7 +2750,7 @@
         "display": "Sorcery Kin",
         "search": "k:sorcery"
       },
-      " add one \"sorcery\" counter to this command.\n\nRemove X \"sorcery\" counters from this command for all friendly creatures to gain +X strength."
+      " add one \"sorcery\" counter to this command.\n\nRemove X \"sorcery\" counters from this command for all friendly creatures to gain +X power until end of turn."
     ],
     "cost": 3,
     "health": 0,
@@ -2759,7 +2759,7 @@
     "type": "extended command",
     "abilities": [
       "Whenever you play a Sorcery Kin, add one \"sorcery\" counter to this command.",
-      "Remove X \"sorcery\" counters from this command for all friendly creatures to gain +X strength."
+      "Remove X \"sorcery\" counters from this command for all friendly creatures to gain +X power until end of turn."
     ],
     "set": "The Forest",
     "legality": {
@@ -2768,7 +2768,7 @@
       "bloodful": "y"
     },
     "functions": [
-      "gain strength",
+      "gain power",
       "graveyard matters"
     ],
     "flavor_text": "I don't like this plan anymore, Luna\nPlease, there has to be a better way"
