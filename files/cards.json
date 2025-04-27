@@ -2964,7 +2964,7 @@
     "description": [
       "Draw all of your Blood Flasks."
     ],
-    "cost": 1,
+    "cost": 3,
     "health": 0,
     "defense": 0,
     "power": 0,
