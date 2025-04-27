@@ -1124,7 +1124,7 @@
   {
     "id": "black_queen",
     "name": "Black Queen",
-    "description": "Black Kingdom Kin\n\nMove a creature chosen by your opponent from your discard pile to your hand.",
+    "description": "Black Kingdom Kin\n\nMove a card from your discard pile to your hand.",
     "cost": 2,
     "health": 0,
     "defense": 0,
