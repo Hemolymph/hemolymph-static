@@ -111,11 +111,14 @@
         ]
       }
     ],
-    "description": "Pay X blood to sacrifice X creatures.",
+    "description": "Blue Kingdom Kin\n\nPay X blood to sacrifice X creatures.",
     "cost": 0,
     "health": 0,
     "defense": 0,
     "power": 0,
+    "kins": [
+      "Blue Kingdom"
+    ],
     "type": "command",
     "abilities": [
       "Pay X blood to sacrifice X creatures."
@@ -184,7 +187,7 @@
     "id": "timestopper",
     "name": "Timestopper",
     "description": "All friendly creatures deal damage.",
-    "cost": 8,
+    "cost": 7,
     "health": 0,
     "defense": 0,
     "power": 0,
@@ -612,12 +615,15 @@
   {
     "id": "green_queen",
     "name": "Green Queen",
-    "description": "Draw 2 cards",
+    "description": "Green Kingdom Kin\n\nDraw 2 cards",
     "cost": 2,
     "health": 0,
     "defense": 0,
     "power": 0,
     "type": "command",
+    "kins": [
+      "Green Kingdom"
+    ],
     "abilities": [
       "Draw 2 cards"
     ],
@@ -947,12 +953,15 @@
         ]
       }
     ],
-    "description": "Your opponent skips one turn.\n\nYour turn ends.",
+    "description": "Red Kingdom Kin\n\nYour opponent skips one turn.\n\nYour turn ends.",
     "cost": 1,
     "health": 0,
     "defense": 0,
     "power": 0,
     "type": "command",
+    "kins": [
+      "Red Kingdom"
+    ],
     "abilities": [
       "Your opponent skips one turn.",
       "Your turn ends."
@@ -1115,12 +1124,15 @@
   {
     "id": "black_queen",
     "name": "Black Queen",
-    "description": "Move a creature chosen by your opponent from your discard pile to your hand.",
+    "description": "Black Kingdom Kin\n\nMove a creature chosen by your opponent from your discard pile to your hand.",
     "cost": 2,
     "health": 0,
     "defense": 0,
     "power": 0,
     "type": "command",
+    "kins": [
+      "Black Kingdom"
+    ],
     "abilities": [
       "Draw 2 cards from your opponent's creature deck."
     ],
@@ -1604,7 +1616,7 @@
     "id": "flash_of_insight",
     "name": "Flash Of Insight",
     "description": "Draw three cards.",
-    "cost": 4,
+    "cost": 3,
     "health": 0,
     "defense": 0,
     "power": 0,
@@ -1958,7 +1970,7 @@
     "id": "bribe",
     "name": "Bribe",
     "description": "All face-down creatures gain a +1/+1/+1 counter",
-    "cost": 3,
+    "cost": 2,
     "health": 0,
     "defense": 0,
     "power": 0,
@@ -2122,7 +2134,7 @@
     "id": "revitalificate",
     "name": "Revitalificate",
     "description": "Sorcery Kin\n\nOne friendly creature gains +2 health.",
-    "cost": 3,
+    "cost": 2,
     "health": 0,
     "defense": 0,
     "power": 0,
@@ -2353,30 +2365,6 @@
     ]
   },
   {
-    "id": "guessmaster",
-    "name": "Guessmaster",
-    "description": "Say a card name and reveal the top card of your deck. You can't use that name the next time you execute this command.\n\nIf it has the name you said, gain 2 blood, put it at the bottom of your deck, and re-execute this command. Otherwise, put it in your hand and shuffle.",
-    "cost": 2,
-    "health": 0,
-    "defense": 0,
-    "power": 0,
-    "type": "command",
-    "abilities": [
-      "Say a card name and reveal the top card of your deck. You can't use that name the next time you execute this command.\n\nIf it has the name you said, gain 2 blood, put it at the bottom of your deck, and re-execute this command. Otherwise, put it in your hand and shuffle."
-    ],
-    "set": "Fun And Games",
-    "legality": {
-      "bloodful": "y",
-      "bloodless": "y",
-      "tournaments": "y"
-    },
-    "functions": [
-      "draw card",
-      "gain blood",
-      "shuffle"
-    ]
-  },
-  {
     "id": "yugioh",
     "name": "Yu-Gi-Oh",
     "images": [
@@ -2434,7 +2422,7 @@
     "id": "deep_cover",
     "name": "Deep Cover",
     "description": "Summon a creature from your hand hand face-down. Its Flip cost becomes equal to its Blood cost.",
-    "cost": 2,
+    "cost": 1,
     "health": 0,
     "defense": 0,
     "power": 0,
@@ -2511,8 +2499,8 @@
   {
     "id": "titan_carcass",
     "name": "Titan Carcass",
-    "description": "Destroy a creature with power 4 or more",
-    "cost": 4,
+    "description": "Destroy a creature with health 4 or more",
+    "cost": 3,
     "health": 0,
     "defense": 0,
     "power": 0,
@@ -2607,7 +2595,7 @@
         "name": "cumulative"
       }
     ],
-    "cost": 2,
+    "cost": 1,
     "health": 0,
     "defense": 0,
     "power": 0,
@@ -2721,7 +2709,7 @@
   {
     "id": "shadow_of_the_apochoron",
     "name": "Shadow Of The Apochoron",
-    "description": "The next time your opponent draws a card, draw two cards.",
+    "description": "Once opponent draws a card, draw two cards.",
     "cost": 2,
     "health": 0,
     "defense": 0,
