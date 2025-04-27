@@ -1019,7 +1019,7 @@
   {
     "id": "time_screamer",
     "name": "Time Screamer",
-    "description": "Legendary\n\nIf an attack would cause player damage, it does not.",
+    "description": "Legendary\n\nIf an attack damages a player, it does not.",
     "cost": 1,
     "health": 3,
     "defense": 2,
@@ -1031,7 +1031,7 @@
       }
     ],
     "abilities": [
-      "If an attack would cause player damage, it does not."
+      "If an attack damages a player, it does not."
     ],
     "set": "The Forest",
     "legality": {
@@ -1852,7 +1852,7 @@
   {
     "id": "bluejay",
     "name": "Bluejay",
-    "description": "Flying\nPay 2 blood to damage the spaces adjacent to the space opposing this creature.",
+    "description": "Flying\nOne per turn, pay 2 blood to damage the spaces adjacent to the space opposing this creature.",
     "cost": 3,
     "health": 2,
     "keywords": [
@@ -1864,7 +1864,7 @@
     "power": 1,
     "type": "creature",
     "abilities": [
-      "Pay 2 blood to damage the spaces adjacent to the space opposing this creature."
+      "One per turn, pay 2 blood to damage the spaces adjacent to the space opposing this creature."
     ],
     "set": "The Forest",
     "legality": {
@@ -2956,6 +2956,32 @@
     "functions": [
       "deal damage",
       "draw card"
+    ]
+  },
+  {
+    "id": "slaves_to_power",
+    "name": "Slaves to Power",
+    "description": [
+      "Draw all of your Blood Flasks."
+    ],
+    "cost": 1,
+    "health": 0,
+    "defense": 0,
+    "power": 0,
+    "type": "command",
+    "abilities": [
+      "Draw all of your Blood Flasks."
+    ],
+    "set": "New Vianlai",
+    "legality": {
+      "bloodless": "y",
+      "tournaments": "y",
+      "bloodful": "y"
+    },
+    "flavor_text": "I opened my eyes in the middle of the city of New Vianlai, and saw sixteen blood rarefactors.",
+    "functions": [
+      "draw card",
+      "draw blood flask"
     ]
   }
 ]
