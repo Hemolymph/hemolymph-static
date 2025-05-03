@@ -1891,7 +1891,7 @@
   {
     "id": "blood_rarefaction_engine",
     "name": "Blood Rarefaction Engine",
-    "description": "At the beginning of your turn, add an Unstable counter to this card.\n\nRemove ten Unstable counters from this card to win the game.\n\nAt any point, your opponent may Liberate all their cards and creatures to remove all counters from this card.",
+    "description": "At the beginning of your turn, add an Unstable counter to this card.\n\nRemove ten Unstable counters from this card to win the game.",
     "cost": 3,
     "health": 6,
     "defense": 0,
@@ -1899,8 +1899,7 @@
     "type": "creature",
     "abilities": [
       "At the beginning of your turn, add an Unstable counter to this card.",
-      "Remove ten Unstable counters from this card to win the game.",
-      "At any point, your opponent may Liberate all their cards and creatures to remove all counters from this card."
+      "Remove ten Unstable counters from this card to win the game."
     ],
     "set": "Doomsday",
     "legality": {
@@ -1912,7 +1911,7 @@
       "wincon",
       "mock opponent"
     ],
-    "flavor_text": "Do you know about blood rarefaction?\n\nYou see, blood is in some way the key to an incredible power. However, it is usually difficult to manifest it. But if you use moonstones to extract the hemoglobin from it, you create a vacuum inside it which breaks down the... um...\n\nAre you getting any of this...?"
+    "flavor_text": "Do you know about blood rarefaction...?\n\nYou see, blood is in some way the key to an incredible power. However, it is usually difficult to manifest it. But if you use moonstones to extract the hemoglobin from it, you create a vacuum inside it which breaks down the... um...\n\nAre you getting any of this...?"
   },
   {
     "id": "rage_of_the_lurker",
