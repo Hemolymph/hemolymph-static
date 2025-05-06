@@ -3122,7 +3122,7 @@
     "abilities": [
       "When another friendly Green Kingdom kin enters the board, you may discard a card to draw a card."
     ],
-    "set": "The Kingdoms",
+    "set": "The Green Kingdom",
     "legality": {
       "bloodless": "y",
       "tournaments": "y",
@@ -3155,7 +3155,7 @@
     "abilities": [
       "When another friendly Red Kingdom kin enters the board, draw a blood flask"
     ],
-    "set": "The Kingdoms",
+    "set": "The Red Kingdom",
     "legality": {
       "bloodless": "y",
       "tournaments": "y",
@@ -3183,12 +3183,12 @@
     "power": 1,
     "type": "creature",
     "kins": [
-      "red kingdom"
+      "black kingdom"
     ],
     "abilities": [
       "When another friendly Black Kingdom kin enters the board, you mey move a card from your discard to the top of your deck"
     ],
-    "set": "The Kingdoms",
+    "set": "The Black Kingdom",
     "legality": {
       "bloodless": "y",
       "tournaments": "y",
@@ -3198,5 +3198,31 @@
       "draw blood flask"
     ],
     "flavor_text": "They reminisce about a war between two ancient kingdoms"
+  },
+  {
+    "id": "dr_vats",
+    "name": "Dr. Vats",
+    "description": [
+      "Whenever a non-Blood Flask creature moves from the discard pile, gain 1 blood."
+    ],
+    "cost": 3,
+    "health": 3,
+    "defense": 1,
+    "power": 0,
+    "type": "creature",
+    "kins": [],
+    "abilities": [
+      "Whenever a non-Blood Flask creature moves from the discard pile, gain 1 blood."
+    ],
+    "set": "The Blue Kingdom",
+    "legality": {
+      "bloodless": "y",
+      "tournaments": "y",
+      "bloodful": "y"
+    },
+    "functions": [
+      "gain blood"
+    ],
+    "flavor_text": "His ways were consistent with all of his breakthroughs:\n\nStrange, confusing, and earthshattering.\n\nThis was a man of science.\n\n— Dr. Nadiya Evikza, mentor of Dr. Vats."
   }
 ]
