@@ -751,14 +751,14 @@
   {
     "id": "leech",
     "name": "Leech",
-    "description": "When killing a creature, when your opponent gains an amount of blood, you gain it instead.\n\nWhen killed, your opponent gains 1 blood.",
+    "description": "When killing a creature, once your opponent gains an amount of blood, you gain it instead.\n\nWhen killed, your opponent gains 1 blood.",
     "cost": 2,
     "health": 2,
     "defense": 1,
     "power": 1,
     "type": "creature",
     "abilities": [
-      "When killing a creature, when your opponent gains an amount of blood, you gain it instead.",
+      "When killing a creature, once your opponent gains an amount of blood, you gain it instead.",
       "When killed, your opponent gains 1 blood."
     ],
     "set": "The Forest",
@@ -2732,12 +2732,12 @@
     "id": "luna",
     "name": "Luna",
     "description": [
-      "Whenever you play a ",
+      "Whenever you play another ",
       {
         "display": "Sorcery Kin",
         "search": "k:sorcery"
       },
-      " add one \"sorcery\" counter to this command.\n\nRemove X \"sorcery\" counters from this command for all friendly creatures to gain +X power until end of turn."
+      ", all friendly creatures to gain +1 power until end of turn."
     ],
     "cost": 3,
     "health": 0,
@@ -2745,8 +2745,7 @@
     "power": 0,
     "type": "extended command",
     "abilities": [
-      "Whenever you play a Sorcery Kin, add one \"sorcery\" counter to this command.",
-      "Remove X \"sorcery\" counters from this command for all friendly creatures to gain +X power until end of turn."
+      "Whenever you play another Sorcery Kin, all friendly creatures gain +1 power until end of turn."
     ],
     "set": "The Forest",
     "legality": {
@@ -3101,5 +3100,104 @@
       "bloodful": "y"
     },
     "functions": []
+  },
+  {
+    "id": "green_pawn",
+    "name": "Green Pawn",
+    "description": [
+      "Green Kingdom Kin\n\nWhen another friendly ",
+      {
+        "display": "Green Kingdom kin",
+        "search": "t:creature k:\"green kingdom\""
+      },
+      " enters the board, you may discard a card to draw a card."
+    ],
+    "cost": 2,
+    "health": 1,
+    "defense": 1,
+    "power": 1,
+    "type": "creature",
+    "kins": [
+      "green kingdom"
+    ],
+    "abilities": [
+      "When another friendly Green Kingdom kin enters the board, you may discard a card to draw a card."
+    ],
+    "set": "The Kingdoms",
+    "legality": {
+      "bloodless": "y",
+      "tournaments": "y",
+      "bloodful": "y"
+    },
+    "functions": [
+      "attack twice"
+    ],
+    "flavor_text": "Pawns in the Green Kingdom seek the ruthless elegance of sorcery"
+  },
+  {
+    "id": "red_pawn",
+    "name": "Red Pawn",
+    "description": [
+      "Red Kingdom Kin\n\nWhen another friendly ",
+      {
+        "display": "Red Kingdom kin",
+        "search": "t:creature k:\"red kingdom\""
+      },
+      " enters the board, draw a blood flask."
+    ],
+    "cost": 2,
+    "health": 1,
+    "defense": 1,
+    "power": 1,
+    "type": "creature",
+    "kins": [
+      "red kingdom"
+    ],
+    "abilities": [
+      "When another friendly Red Kingdom kin enters the board, draw a blood flask"
+    ],
+    "set": "The Kingdoms",
+    "legality": {
+      "bloodless": "y",
+      "tournaments": "y",
+      "bloodful": "y"
+    },
+    "functions": [
+      "draw blood flask"
+    ],
+    "flavor_text": "Pawns in the Red Kingdom often participate in seizing resources from other lands."
+  },
+  {
+    "id": "black_pawn",
+    "name": "Black Pawn",
+    "description": [
+      "Black Kingdom Kin\n\nWhen another friendly ",
+      {
+        "display": "Black Kingdom kin",
+        "search": "t:creature k:\"black kingdom\""
+      },
+      " enters the board, you mey move a card from your discard to the top of your deck"
+    ],
+    "cost": 2,
+    "health": 1,
+    "defense": 1,
+    "power": 1,
+    "type": "creature",
+    "kins": [
+      "red kingdom"
+    ],
+    "abilities": [
+      "When another friendly Black Kingdom kin enters the board, you mey move a card from your discard to the top of your deck"
+    ],
+    "set": "The Kingdoms",
+    "legality": {
+      "bloodless": "y",
+      "tournaments": "y",
+      "bloodful": "y"
+    },
+    "functions": [
+      "draw blood flask"
+    ],
+    "flavor_text": "They reminisce about a war between two ancient kingdoms"
   }
 ]
