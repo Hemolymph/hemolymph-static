@@ -164,7 +164,7 @@
   {
     "id": "blood_flask",
     "name": "Blood Flask",
-    "description": "",
+    "description": "When played, gain 1 blood.",
     "cost": 0,
     "health": 1,
     "defense": 0,
@@ -389,14 +389,14 @@
   {
     "id": "cult_initiate",
     "name": "Cult Initiate",
-    "description": "When killed, once you gain blood, you do not.",
+    "description": "This creature gives no blood when killed.",
     "cost": 1,
     "health": 1,
     "defense": 1,
     "power": 1,
     "type": "creature",
     "abilities": [
-      "Does not give blood when killed"
+      "This creature gives no blood when killed."
     ],
     "set": "The Forest",
     "legality": {
@@ -1714,7 +1714,7 @@
   {
     "id": "flask_of_ants",
     "name": "Flask Of Ants",
-    "description": "Ant Kin\n\nLimit: 2",
+    "description": "Ant Kin\n\nLimit: 2\n\nWhen played, gain 1 blood.",
     "cost": 0,
     "health": 1,
     "defense": 0,
@@ -1765,7 +1765,7 @@
   {
     "id": "wall_of_living_rock",
     "name": "Wall Of Living Rock",
-    "description": "When this creature enters the board, draw a card.\n\nWhen killed, when you gain blood, you do not.",
+    "description": "When this creature enters the board, draw a card.\n\nThis creature no blood when it dies.",
     "cost": 1,
     "health": 3,
     "defense": 0,
@@ -3031,7 +3031,7 @@
     "id": "black_blood_flask",
     "name": "Black Blood Flask",
     "description": [
-      "Black Kingdom Kin\n\nWhenever a Black Kingdom kin creature dies, gain 1 blood.\n\nThis flask gives no blood when it enters.\n\nThis flask gives no blood when it dies."
+      "Black Kingdom Kin\n\nWhenever a Black Kingdom kin creature dies, gain 1 blood.\n\nThis flask gives no blood when killed."
     ],
     "cost": 2,
     "health": 2,
@@ -3040,8 +3040,7 @@
     "type": "blood flask",
     "abilities": [
       "Whenever a Black Kingdom kin creature dies, gain 1 blood.",
-      "This flask gives no blood when it enters.",
-      "This flask gives no blood when it dies."
+      "This flask gives no blood when killed."
     ],
     "set": "The Black Kingdom",
     "legality": {
@@ -3058,7 +3057,7 @@
     "id": "mistake",
     "name": "Mistake",
     "description": [
-      "Black Kingdom Kin\n\nThis creature gives no blood when it dies."
+      "Black Kingdom Kin\n\nThis creature gives no blood when killed."
     ],
     "cost": 0,
     "health": 1,
@@ -3069,7 +3068,7 @@
       "Black Kingdom"
     ],
     "abilities": [
-      "This creature gives no blood when it dies."
+      "This creature gives no blood when killed."
     ],
     "set": "The Black Kingdom",
     "legality": {
