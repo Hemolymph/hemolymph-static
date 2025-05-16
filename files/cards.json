@@ -25,18 +25,14 @@
               "name": "bifurcated strike"
             }
           ],
-          "kins": [
-            "insect"
-          ]
+          "kin": "insect"
         }
       },
       {
         "name": "bifurcated strike"
       }
     ],
-    "kins": [
-      "undead"
-    ],
+    "kin": "undead",
     "abilities": [
       "When Killed: Gain one additional blood."
     ],
@@ -74,16 +70,14 @@
     "defense": 1,
     "power": 1,
     "type": "creature",
-    "kins": [
-      "insect"
-    ],
+    "kin": "insect",
     "abilities": [
       "When this creature attacks a creature, gain one blood."
     ],
     "set": "The Forest",
     "legality": {
-      "bloodless": "y",
       "tournaments": "y",
+      "bloodless": "y",
       "bloodful": "y"
     },
     "functions": [
@@ -116,18 +110,16 @@
     "health": 0,
     "defense": 0,
     "power": 0,
-    "kins": [
-      "Blue Kingdom"
-    ],
     "type": "command",
+    "kin": "blue kingdom",
     "abilities": [
       "Pay X blood to sacrifice X creatures."
     ],
     "set": "The Kingdoms",
     "legality": {
-      "tournaments": "y",
       "bloodless": "y",
-      "bloodful": "y"
+      "bloodful": "y",
+      "tournaments": "y"
     },
     "functions": [
       "sacrifice creatures"
@@ -147,10 +139,7 @@
         "name": "kin call"
       }
     ],
-    "kins": [
-      "ant",
-      "insect"
-    ],
+    "kin": "ant",
     "set": "The Forest",
     "legality": {
       "tournaments": "y",
@@ -175,9 +164,9 @@
     ],
     "set": "None",
     "legality": {
-      "tournaments": "y",
+      "bloodless": "y",
       "bloodful": "y",
-      "bloodless": "y"
+      "tournaments": "y"
     },
     "functions": [
       "gain blood"
@@ -198,8 +187,8 @@
     "set": "Otherworldly Mysteries",
     "legality": {
       "bloodful": "y",
-      "bloodless": "y",
-      "tournaments": "y"
+      "tournaments": "y",
+      "bloodless": "y"
     },
     "functions": [
       "attack creature"
@@ -235,10 +224,7 @@
         "name": "unlimited"
       }
     ],
-    "kins": [
-      "blight",
-      "machine"
-    ],
+    "kin": "blight",
     "set": "The Forest",
     "legality": {
       "bloodful": "y",
@@ -261,9 +247,9 @@
     "type": "creature",
     "set": "The Forest",
     "legality": {
-      "bloodless": "y",
       "tournaments": "y",
-      "bloodful": "y"
+      "bloodful": "y",
+      "bloodless": "y"
     },
     "functions": [
       "convert creature"
@@ -306,17 +292,15 @@
     "defense": 0,
     "power": 1,
     "type": "creature",
-    "kins": [
-      "insect"
-    ],
+    "kin": "insect",
     "abilities": [
       "When Played: Friendly Insect creatures move one space closer to this creature"
     ],
     "set": "The Forest",
     "legality": {
-      "bloodful": "y",
       "tournaments": "y",
-      "bloodless": "y"
+      "bloodless": "y",
+      "bloodful": "y"
     },
     "functions": [
       "move creature"
@@ -355,9 +339,9 @@
     ],
     "set": "The Forest",
     "legality": {
+      "tournaments": "y",
       "bloodless": "y",
-      "bloodful": "y",
-      "tournaments": "y"
+      "bloodful": "y"
     },
     "functions": [
       "move creature"
@@ -400,9 +384,9 @@
     ],
     "set": "The Forest",
     "legality": {
+      "bloodless": "y",
       "tournaments": "y",
-      "bloodful": "y",
-      "bloodless": "y"
+      "bloodful": "y"
     }
   },
   {
@@ -464,8 +448,8 @@
     ],
     "set": "The Forest",
     "legality": {
-      "bloodful": "y",
       "bloodless": "y",
+      "bloodful": "y",
       "tournaments": "y"
     },
     "flavor_text": "Man's best friend"
@@ -515,9 +499,9 @@
     ],
     "set": "The Forest",
     "legality": {
+      "bloodful": "y",
       "bloodless": "y",
-      "tournaments": "y",
-      "bloodful": "y"
+      "tournaments": "y"
     },
     "functions": [
       "modify creature",
@@ -541,9 +525,6 @@
     "defense": 1,
     "power": 1,
     "type": "creature",
-    "kins": [
-      "cult of nä"
-    ],
     "keywords": [
       {
         "name": "devours",
@@ -553,6 +534,7 @@
         }
       }
     ],
+    "kin": "cult of na",
     "abilities": [
       "Can be Called without evolving.",
       "Spend 2 blood X times to increase next attack by X."
@@ -560,8 +542,8 @@
     "set": "The Forest",
     "legality": {
       "bloodful": "y",
-      "tournaments": "y",
-      "bloodless": "y"
+      "bloodless": "y",
+      "tournaments": "y"
     },
     "functions": [
       "increase attack"
@@ -621,17 +603,15 @@
     "defense": 0,
     "power": 0,
     "type": "command",
-    "kins": [
-      "Green Kingdom"
-    ],
+    "kin": "green kingdom",
     "abilities": [
       "Draw 2 cards"
     ],
     "set": "The Kingdoms",
     "legality": {
-      "bloodless": "y",
       "bloodful": "y",
-      "tournaments": "y"
+      "tournaments": "y",
+      "bloodless": "y"
     },
     "functions": [
       "draw card"
@@ -659,26 +639,22 @@
         "data": {
           "type": "CardId",
           "cost": 1,
-          "kins": [
-            "insect"
-          ]
+          "kin": "insect"
         }
       },
       {
         "name": "bifurcated strike"
       }
     ],
-    "kins": [
-      "insect"
-    ],
+    "kin": "insect",
     "abilities": [
       "When this creature attacks and is blocked, gain one blood"
     ],
     "set": "The Forest",
     "legality": {
       "tournaments": "y",
-      "bloodful": "y",
-      "bloodless": "y"
+      "bloodless": "y",
+      "bloodful": "y"
     },
     "functions": [
       "gain blood"
@@ -698,9 +674,9 @@
     ],
     "set": "The Forest",
     "legality": {
+      "bloodful": "y",
       "tournaments": "y",
-      "bloodless": "y",
-      "bloodful": "y"
+      "bloodless": "y"
     },
     "functions": [
       "gain blood",
@@ -738,14 +714,12 @@
         "name": "kin call"
       }
     ],
-    "kins": [
-      "cult of nä"
-    ],
+    "kin": "cult of na",
     "set": "The Forest",
     "legality": {
+      "bloodful": "y",
       "tournaments": "y",
-      "bloodless": "y",
-      "bloodful": "y"
+      "bloodless": "y"
     }
   },
   {
@@ -763,9 +737,9 @@
     ],
     "set": "The Forest",
     "legality": {
-      "bloodless": "y",
+      "bloodful": "y",
       "tournaments": "y",
-      "bloodful": "y"
+      "bloodless": "y"
     },
     "functions": [
       "starve opponent",
@@ -824,9 +798,9 @@
     ],
     "set": "The Forest",
     "legality": {
+      "bloodless": "y",
       "tournaments": "y",
-      "bloodful": "y",
-      "bloodless": "y"
+      "bloodful": "y"
     }
   },
   {
@@ -878,9 +852,9 @@
     ],
     "set": "The Forest",
     "legality": {
+      "tournaments": "y",
       "bloodful": "y",
-      "bloodless": "y",
-      "tournaments": "y"
+      "bloodless": "y"
     },
     "functions": [
       "negate legendary"
@@ -900,9 +874,7 @@
         "name": "bifurcated strike"
       }
     ],
-    "kins": [
-      "insect"
-    ],
+    "kin": "insect",
     "set": "The Forest",
     "legality": {
       "bloodful": "y",
@@ -924,9 +896,9 @@
     ],
     "set": "The Forest",
     "legality": {
+      "bloodful": "y",
       "bloodless": "y",
-      "tournaments": "y",
-      "bloodful": "y"
+      "tournaments": "y"
     },
     "functions": [
       "clutter opponent space"
@@ -959,9 +931,7 @@
     "defense": 0,
     "power": 0,
     "type": "command",
-    "kins": [
-      "Red Kingdom"
-    ],
+    "kin": "red kingdom",
     "abilities": [
       "Your opponent skips one turn.",
       "Your turn ends."
@@ -1020,9 +990,9 @@
     ],
     "set": "The Forest",
     "legality": {
-      "bloodless": "y",
+      "tournaments": "y",
       "bloodful": "y",
-      "tournaments": "y"
+      "bloodless": "y"
     }
   },
   {
@@ -1044,8 +1014,8 @@
     ],
     "set": "The Forest",
     "legality": {
-      "bloodless": "y",
       "tournaments": "y",
+      "bloodless": "y",
       "bloodful": "y"
     },
     "functions": [
@@ -1067,15 +1037,12 @@
         "name": "flying"
       }
     ],
-    "kins": [
-      "ant",
-      "insect"
-    ],
+    "kin": "ant",
     "set": "The Forest",
     "legality": {
+      "tournaments": "y",
       "bloodful": "y",
-      "bloodless": "y",
-      "tournaments": "y"
+      "bloodless": "y"
     }
   },
   {
@@ -1110,10 +1077,7 @@
         "name": "kin strength"
       }
     ],
-    "kins": [
-      "ant",
-      "insect"
-    ],
+    "kin": "ant",
     "set": "The Forest",
     "legality": {
       "bloodless": "y",
@@ -1130,9 +1094,7 @@
     "defense": 0,
     "power": 0,
     "type": "command",
-    "kins": [
-      "Black Kingdom"
-    ],
+    "kin": "black kingdom",
     "abilities": [
       "Draw 2 cards from your opponent's creature deck."
     ],
@@ -1154,24 +1116,22 @@
     "health": 3,
     "defense": 2,
     "power": 0,
+    "type": "creature",
     "keywords": [
       {
         "name": "bifurcated strike"
       }
     ],
-    "type": "creature",
-    "kins": [
-      "insect"
-    ],
+    "kin": "insect",
     "abilities": [
       "During your turn, you may sacrifice any creature.",
       "Whenever you sacrifice a creature, add +1 health or +1 power to this creature."
     ],
     "set": "The Forest",
     "legality": {
-      "tournaments": "y",
+      "bloodless": "y",
       "bloodful": "y",
-      "bloodless": "y"
+      "tournaments": "y"
     }
   },
   {
@@ -1183,17 +1143,15 @@
     "defense": 1,
     "power": 0,
     "type": "creature",
-    "kins": [
-      "reptile"
-    ],
+    "kin": "reptile",
     "abilities": [
       "Pay 1 blood to deal 1 damage to any creature."
     ],
     "set": "The Forest",
     "legality": {
-      "tournaments": "y",
+      "bloodless": "y",
       "bloodful": "y",
-      "bloodless": "y"
+      "tournaments": "y"
     },
     "functions": [
       "attack creature"
@@ -1207,6 +1165,7 @@
     "health": 2,
     "defense": 1,
     "power": 2,
+    "type": "creature",
     "keywords": [
       {
         "name": "flying defense"
@@ -1215,14 +1174,11 @@
         "name": "piercing"
       }
     ],
-    "type": "creature",
-    "kins": [
-      "insect"
-    ],
+    "kin": "insect",
     "set": "The Forest",
     "legality": {
-      "tournaments": "y",
       "bloodless": "y",
+      "tournaments": "y",
       "bloodful": "y"
     }
   },
@@ -1240,9 +1196,9 @@
     ],
     "set": "The Forest",
     "legality": {
+      "bloodless": "y",
       "bloodful": "y",
-      "tournaments": "y",
-      "bloodless": "y"
+      "tournaments": "y"
     },
     "functions": [
       "attack creature"
@@ -1276,8 +1232,8 @@
     "set": "The Forest",
     "legality": {
       "bloodless": "y",
-      "bloodful": "y",
-      "tournaments": "y"
+      "tournaments": "y",
+      "bloodful": "y"
     },
     "functions": [
       "ensnare",
@@ -1293,17 +1249,15 @@
     "defense": 0,
     "power": 0,
     "type": "command",
-    "kins": [
-      "sorcery"
-    ],
+    "kin": "sorcery",
     "abilities": [
       "Draw a card"
     ],
     "set": "The Forest",
     "legality": {
+      "bloodful": "y",
       "bloodless": "y",
-      "tournaments": "y",
-      "bloodful": "y"
+      "tournaments": "y"
     },
     "functions": [
       "draw card"
@@ -1333,9 +1287,9 @@
     ],
     "set": "The Forest",
     "legality": {
-      "bloodful": "y",
       "tournaments": "y",
-      "bloodless": "y"
+      "bloodless": "y",
+      "bloodful": "y"
     },
     "functions": [
       "search deck",
@@ -1352,17 +1306,15 @@
     "defense": 0,
     "power": 0,
     "type": "command",
-    "kins": [
-      "sorcery"
-    ],
+    "kin": "sorcery",
     "abilities": [
       "Deal 2 damage to an unfriendly creature. Then, draw a card."
     ],
     "set": "The Forest",
     "legality": {
-      "bloodless": "y",
       "tournaments": "y",
-      "bloodful": "y"
+      "bloodful": "y",
+      "bloodless": "y"
     },
     "functions": [
       "attack creature",
@@ -1386,17 +1338,15 @@
     "defense": 1,
     "power": 1,
     "type": "creature",
-    "kins": [
-      "sorcery"
-    ],
+    "kin": "sorcery",
     "abilities": [
       "Whenever you execute a sorcery command, draw a card."
     ],
     "set": "The Forest",
     "legality": {
       "bloodful": "y",
-      "bloodless": "y",
-      "tournaments": "y"
+      "tournaments": "y",
+      "bloodless": "y"
     },
     "functions": [
       "attack creature",
@@ -1415,9 +1365,9 @@
     "type": "creature",
     "set": "The Forest",
     "legality": {
+      "bloodful": "y",
       "bloodless": "y",
-      "tournaments": "y",
-      "bloodful": "y"
+      "tournaments": "y"
     },
     "functions": [
       "gain blood"
@@ -1432,18 +1382,15 @@
     "defense": 0,
     "power": 0,
     "type": "creature",
-    "kins": [
-      "bee",
-      "insect"
-    ],
+    "kin": "bee",
     "abilities": [
       "This creature is destroyed after it attacks."
     ],
     "set": "The Forest",
     "legality": {
+      "bloodless": "y",
       "tournaments": "y",
-      "bloodful": "y",
-      "bloodless": "y"
+      "bloodful": "y"
     }
   },
   {
@@ -1462,16 +1409,14 @@
     "defense": 2,
     "power": 2,
     "type": "creature",
-    "kins": [
-      "blue kingdom"
-    ],
+    "kin": "blue kingdom",
     "abilities": [
       "As long as you control another Blue Kingdom creature, your opponent can only play two cards each turn. They may sacrifice X creatures to play X additional cards."
     ],
     "set": "The Kingdoms",
     "legality": {
-      "bloodful": "y",
       "tournaments": "y",
+      "bloodful": "y",
       "bloodless": "y"
     },
     "flavor_text": "Blue pawns who do not seek glory often seek the prestige of science"
@@ -1492,17 +1437,15 @@
     "defense": 1,
     "power": 1,
     "type": "creature",
-    "kins": [
-      "blue kingdom"
-    ],
+    "kin": "blue kingdom",
     "abilities": [
       "When another friendly Blue Kingdom creature enters the board, this creature cannot be attacked until the start of your turn."
     ],
     "set": "The Kingdoms",
     "legality": {
-      "bloodless": "y",
+      "bloodful": "y",
       "tournaments": "y",
-      "bloodful": "y"
+      "bloodless": "y"
     },
     "functions": [
       "attack twice"
@@ -1518,17 +1461,15 @@
     "defense": 2,
     "power": 2,
     "type": "creature",
-    "kins": [
-      "blue kingdom"
-    ],
+    "kin": "blue kingdom",
     "abilities": [
       "During your setup phase, you may move this card to any unobstructed space."
     ],
     "set": "The Kingdoms",
     "legality": {
-      "bloodful": "y",
       "bloodless": "y",
-      "tournaments": "y"
+      "tournaments": "y",
+      "bloodful": "y"
     },
     "functions": [
       "move"
@@ -1539,19 +1480,17 @@
     "id": "royal_engineer",
     "name": "Royal Engineer",
     "description": "Blue Kingdom Kin\nKin Call x3\n\nWhen this card attacks, choose which opponent space to attack. If that space has a creature, it loses its text until the end of next turn.",
-    "keywords": [
-      {
-        "name": "kin call x3"
-      }
-    ],
     "cost": 7,
     "health": 4,
     "defense": 1,
     "power": 3,
     "type": "creature",
-    "kins": [
-      "blue kingdom"
+    "keywords": [
+      {
+        "name": "kin call x3"
+      }
     ],
+    "kin": "blue kingdom",
     "abilities": [
       "When this card attacks, choose which opponent space to attack. If that space has a creature, it loses its text until the end of next turn."
     ],
@@ -1580,9 +1519,9 @@
     ],
     "set": "Ampersandia",
     "legality": {
-      "bloodful": "y",
+      "tournaments": "y",
       "bloodless": "y",
-      "tournaments": "y"
+      "bloodful": "y"
     },
     "functions": [
       "re-summon creature"
@@ -1603,9 +1542,9 @@
     ],
     "set": "Ampersandia",
     "legality": {
+      "tournaments": "y",
       "bloodful": "y",
-      "bloodless": "y",
-      "tournaments": "y"
+      "bloodless": "y"
     },
     "functions": [
       "gain blood"
@@ -1626,9 +1565,9 @@
     ],
     "set": "Normality",
     "legality": {
-      "tournaments": "y",
+      "bloodless": "y",
       "bloodful": "y",
-      "bloodless": "y"
+      "tournaments": "y"
     },
     "functions": [
       "draw card"
@@ -1703,8 +1642,8 @@
     "set": "Normality",
     "legality": {
       "bloodless": "y",
-      "tournaments": "y",
-      "bloodful": "y"
+      "bloodful": "y",
+      "tournaments": "y"
     },
     "functions": [
       "heal pool"
@@ -1725,15 +1664,12 @@
         "name": "limit: 3"
       }
     ],
-    "kins": [
-      "ant",
-      "insect"
-    ],
+    "kin": "ant",
     "set": "None",
     "legality": {
-      "tournaments": "y",
       "bloodless": "y",
-      "bloodful": "y"
+      "bloodful": "y",
+      "tournaments": "y"
     },
     "functions": [
       "gain blood"
@@ -1753,8 +1689,8 @@
     ],
     "set": "None",
     "legality": {
-      "bloodless": "y",
       "tournaments": "y",
+      "bloodless": "y",
       "bloodful": "y"
     },
     "functions": [
@@ -1802,8 +1738,8 @@
     "set": "The Forest",
     "legality": {
       "bloodless": "y",
-      "tournaments": "y",
-      "bloodful": "y"
+      "bloodful": "y",
+      "tournaments": "y"
     },
     "flavor_text": "Airsick lowlanders..."
   },
@@ -1821,8 +1757,8 @@
     ],
     "set": "Experiments",
     "legality": {
-      "tournaments": "y",
       "bloodful": "y",
+      "tournaments": "y",
       "bloodless": "y"
     },
     "functions": [
@@ -1853,8 +1789,8 @@
     "set": "Experiments",
     "legality": {
       "bloodful": "y",
-      "tournaments": "y",
-      "bloodless": "y"
+      "bloodless": "y",
+      "tournaments": "y"
     },
     "functions": [
       "bounce card"
@@ -1867,22 +1803,22 @@
     "description": "Flying\nOne per turn, pay 2 blood to damage the spaces adjacent to the space opposing this creature.",
     "cost": 3,
     "health": 2,
+    "defense": 2,
+    "power": 1,
+    "type": "creature",
     "keywords": [
       {
         "name": "flying"
       }
     ],
-    "defense": 2,
-    "power": 1,
-    "type": "creature",
     "abilities": [
       "One per turn, pay 2 blood to damage the spaces adjacent to the space opposing this creature."
     ],
     "set": "The Forest",
     "legality": {
-      "bloodful": "y",
+      "bloodless": "y",
       "tournaments": "y",
-      "bloodless": "y"
+      "bloodful": "y"
     },
     "functions": [
       "bounce card"
@@ -1904,8 +1840,8 @@
     "set": "Doomsday",
     "legality": {
       "tournaments": "y",
-      "bloodful": "y",
-      "bloodless": "y"
+      "bloodless": "y",
+      "bloodful": "y"
     },
     "functions": [
       "wincon",
@@ -1922,17 +1858,15 @@
     "defense": 0,
     "power": 0,
     "type": "command",
-    "kins": [
-      "sorcery"
-    ],
+    "kin": "sorcery",
     "abilities": [
       "Deal 1 damage to each creature"
     ],
     "set": "The Forest",
     "legality": {
+      "tournaments": "y",
       "bloodless": "y",
-      "bloodful": "y",
-      "tournaments": "y"
+      "bloodful": "y"
     },
     "functions": [
       "attack all creatures"
@@ -1948,16 +1882,14 @@
     "defense": 1,
     "power": 1,
     "type": "creature",
-    "kins": [
-      "assassin"
-    ],
+    "kin": "assassin",
     "abilities": [
       "When you flip this card, deal one damage to any target."
     ],
     "set": "The Red Kingdom",
     "legality": {
-      "bloodless": "y",
       "bloodful": "y",
+      "bloodless": "y",
       "tournaments": "y"
     },
     "functions": [
@@ -1979,9 +1911,9 @@
     ],
     "set": "The Red Kingdom",
     "legality": {
-      "tournaments": "y",
       "bloodful": "y",
-      "bloodless": "y"
+      "bloodless": "y",
+      "tournaments": "y"
     },
     "functions": [
       "add counter +1/+1/+1"
@@ -2008,9 +1940,9 @@
     ],
     "set": "The Forest",
     "legality": {
-      "bloodful": "y",
+      "tournaments": "y",
       "bloodless": "y",
-      "tournaments": "y"
+      "bloodful": "y"
     },
     "functions": [
       "remove keyword flying",
@@ -2027,9 +1959,7 @@
     "defense": 2,
     "power": 2,
     "type": "creature",
-    "kins": [
-      "assassin"
-    ],
+    "kin": "assassin",
     "abilities": [
       "When flipped, give all assassin kin creatures +1/+1/+1"
     ],
@@ -2052,17 +1982,15 @@
     "defense": 1,
     "power": 2,
     "type": "creature",
-    "kins": [
-      "assassin"
-    ],
+    "kin": "assassin",
     "abilities": [
       "When flipped, reveal one card from your opponent's hand"
     ],
     "set": "The Red Kingdom",
     "legality": {
+      "tournaments": "y",
       "bloodless": "y",
-      "bloodful": "y",
-      "tournaments": "y"
+      "bloodful": "y"
     },
     "functions": [
       "reveal card opponent hand"
@@ -2077,17 +2005,15 @@
     "defense": 2,
     "power": 1,
     "type": "creature",
-    "kins": [
-      "assassin"
-    ],
+    "kin": "assassin",
     "abilities": [
       "When flipped, give +1/+0/+0 to all assassin kin creatures."
     ],
     "set": "The Red Kingdom",
     "legality": {
-      "bloodful": "y",
+      "bloodless": "y",
       "tournaments": "y",
-      "bloodless": "y"
+      "bloodful": "y"
     },
     "functions": [
       "add counter +1/+0/+0"
@@ -2148,8 +2074,8 @@
     ],
     "set": "Lurker",
     "legality": {
-      "bloodful": "y",
       "tournaments": "y",
+      "bloodful": "y",
       "bloodless": "y"
     },
     "functions": [
@@ -2171,9 +2097,9 @@
     ],
     "set": "The Red Kingdom",
     "legality": {
-      "tournaments": "y",
+      "bloodless": "y",
       "bloodful": "y",
-      "bloodless": "y"
+      "tournaments": "y"
     },
     "functions": [
       "explode creature"
@@ -2194,8 +2120,8 @@
     "set": "The Red Kingdom",
     "legality": {
       "bloodless": "y",
-      "bloodful": "y",
-      "tournaments": "y"
+      "tournaments": "y",
+      "bloodful": "y"
     },
     "functions": [
       "remove text from creature"
@@ -2217,16 +2143,14 @@
     "defense": 2,
     "power": 1,
     "type": "creature",
-    "kins": [
-      "sorcery"
-    ],
+    "kin": "sorcery",
     "abilities": [
       "Whenever you execute a sorcery command, gain one blood."
     ],
     "set": "The Blue Kingdom",
     "legality": {
-      "bloodful": "y",
       "bloodless": "y",
+      "bloodful": "y",
       "tournaments": "y"
     },
     "functions": [
@@ -2248,9 +2172,9 @@
     ],
     "set": "The Blue Kingdom",
     "legality": {
-      "bloodless": "y",
+      "tournaments": "y",
       "bloodful": "y",
-      "tournaments": "y"
+      "bloodless": "y"
     },
     "functions": [
       "give power"
@@ -2290,8 +2214,8 @@
     ],
     "set": "The Blue Kingdom",
     "legality": {
-      "bloodless": "y",
       "tournaments": "y",
+      "bloodless": "y",
       "bloodful": "y"
     },
     "functions": [
@@ -2330,9 +2254,9 @@
     ],
     "set": "Normality",
     "legality": {
-      "tournaments": "y",
+      "bloodless": "y",
       "bloodful": "y",
-      "bloodless": "y"
+      "tournaments": "y"
     },
     "functions": [
       "give power"
@@ -2353,9 +2277,9 @@
     ],
     "set": "Fun And Games",
     "legality": {
+      "tournaments": "y",
       "bloodless": "y",
-      "bloodful": "y",
-      "tournaments": "y"
+      "bloodful": "y"
     },
     "functions": [
       "draw card",
@@ -2409,9 +2333,9 @@
     ],
     "set": "Fun And Games",
     "legality": {
+      "tournaments": "n",
       "bloodful": "n",
-      "bloodless": "n",
-      "tournaments": "n"
+      "bloodless": "n"
     },
     "functions": [
       "not bothering"
@@ -2431,9 +2355,9 @@
     ],
     "set": "The Red Kingdom",
     "legality": {
-      "tournaments": "y",
       "bloodless": "y",
-      "bloodful": "y"
+      "bloodful": "y",
+      "tournaments": "y"
     },
     "functions": [
       "summon creature face down"
@@ -2453,9 +2377,9 @@
     ],
     "set": "Uncards",
     "legality": {
-      "tournaments": "f",
+      "bloodful": "f",
       "bloodless": "f",
-      "bloodful": "f"
+      "tournaments": "f"
     },
     "functions": [
       "mock opponent"
@@ -2472,9 +2396,9 @@
     "type": "creature",
     "set": "Normality",
     "legality": {
-      "tournaments": "y",
+      "bloodless": "y",
       "bloodful": "y",
-      "bloodless": "y"
+      "tournaments": "y"
     },
     "flavor_text": "Name, cost, health, defense and power. No Text. On a 7.781 x 10.875 inch slate."
   },
@@ -2509,8 +2433,8 @@
     ],
     "set": "Normality",
     "legality": {
-      "bloodless": "y",
       "tournaments": "y",
+      "bloodless": "y",
       "bloodful": "y"
     },
     "flavor_text": "Giant corpses of unknown origin are spread throughout the forest."
@@ -2529,9 +2453,9 @@
     ],
     "set": "Fun And Games",
     "legality": {
-      "bloodless": "y",
       "tournaments": "y",
-      "bloodful": "y"
+      "bloodful": "y",
+      "bloodless": "y"
     },
     "flavor_text": "For the last three hundred years, I've visited this place every night. Every time, I wish I could feel worse, like you blame me for what happened, for dragging you into the things that I did.\n\nThat you'd dig yourself out and pull me into the earth.\n\nBut I can't keep searching for you anymore.\n\nI'm sorry, but I have to say goodbye."
   },
@@ -2556,8 +2480,8 @@
     ],
     "set": "Fun And Games",
     "legality": {
-      "bloodless": "y",
       "tournaments": "y",
+      "bloodless": "y",
       "bloodful": "y"
     }
   },
@@ -2589,16 +2513,16 @@
     "id": "circle_of_consequence",
     "name": "Circle Of Consequence",
     "description": "Cumulative\n\nAs your opponent executes a command, you may pay its blood cost to discard it and for it to not be executed, then remove one cumulative counter from this card.",
-    "keywords": [
-      {
-        "name": "cumulative"
-      }
-    ],
     "cost": 1,
     "health": 0,
     "defense": 0,
     "power": 0,
     "type": "extended command",
+    "keywords": [
+      {
+        "name": "cumulative"
+      }
+    ],
     "abilities": [
       "As your opponent executes a command, you may pay its blood cost to deny it, then remove one accumulate counter from this card."
     ],
@@ -2617,24 +2541,24 @@
     "id": "spell_ring",
     "name": "Spell Ring",
     "description": "Cumulative\n\nWhenever this command accumulates, you may pay twice the blood cost of a command from your hand to link it to this command.\n\nWhenever your opponent executes a command, this card loses one accumulate counter from this command, then all chained commands are executed and immediately finished without discarding them before the opponent's command is executed.",
-    "keywords": [
-      {
-        "name": "cumulative"
-      }
-    ],
     "cost": 0,
     "health": 0,
     "defense": 0,
     "power": 0,
     "type": "extended command",
+    "keywords": [
+      {
+        "name": "cumulative"
+      }
+    ],
     "abilities": [
       "Whenever this command accumulates, you may pay twice the blood cost of a command from your hand to link it to this command.\n\nWhenever your opponent executes a command, this card loses one accumulate counter from this command, then all chained commands are executed and immediately finished without discarding them before the opponent's command is executed."
     ],
     "set": "The Black Kingdom",
     "legality": {
-      "bloodless": "y",
+      "bloodful": "y",
       "tournaments": "y",
-      "bloodful": "y"
+      "bloodless": "y"
     },
     "functions": [
       "interaction"
@@ -2672,8 +2596,8 @@
     ],
     "set": "THEIR_WATERS",
     "legality": {
-      "bloodless": "y",
       "tournaments": "y",
+      "bloodless": "y",
       "bloodful": "y"
     },
     "functions": [
@@ -2696,9 +2620,9 @@
     ],
     "set": "THEIR_WATERS",
     "legality": {
-      "bloodless": "y",
       "tournaments": "y",
-      "bloodful": "y"
+      "bloodful": "y",
+      "bloodless": "y"
     },
     "functions": [
       "revive blood flask"
@@ -2720,8 +2644,8 @@
     "set": "THEIR_WATERS",
     "legality": {
       "bloodless": "y",
-      "tournaments": "y",
-      "bloodful": "y"
+      "bloodful": "y",
+      "tournaments": "y"
     },
     "functions": [
       "draw card"
@@ -2749,9 +2673,9 @@
     ],
     "set": "The Forest",
     "legality": {
+      "bloodful": "y",
       "bloodless": "y",
-      "tournaments": "y",
-      "bloodful": "y"
+      "tournaments": "y"
     },
     "functions": [
       "gain power",
@@ -2775,18 +2699,16 @@
     "defense": 0,
     "power": 0,
     "type": "command",
+    "kin": "cult of na",
     "abilities": [
       "Destroy all creatures not of cult of nä kin"
     ],
     "set": "The Forest",
     "legality": {
-      "bloodless": "y",
+      "bloodful": "y",
       "tournaments": "y",
-      "bloodful": "y"
+      "bloodless": "y"
     },
-    "kins": [
-      "cult of nä"
-    ],
     "functions": [
       "destroy creatures"
     ]
@@ -2807,18 +2729,16 @@
     "defense": 0,
     "power": 0,
     "type": "command",
+    "kin": "cult of na",
     "abilities": [
       "Search your deck for 2 cult of nä kin cards, then put them into your hand. Shuffle."
     ],
     "set": "The Forest",
     "legality": {
-      "bloodless": "y",
       "tournaments": "y",
-      "bloodful": "y"
+      "bloodful": "y",
+      "bloodless": "y"
     },
-    "kins": [
-      "cult of nä"
-    ],
     "functions": [
       "search deck"
     ]
@@ -2839,18 +2759,16 @@
     "defense": 0,
     "power": 0,
     "type": "command",
+    "kin": "cult of na",
     "abilities": [
       "All friendly cult of nä kin deal damage twice."
     ],
     "set": "The Forest",
     "legality": {
-      "bloodless": "y",
       "tournaments": "y",
-      "bloodful": "y"
+      "bloodful": "y",
+      "bloodless": "y"
     },
-    "kins": [
-      "cult of nä"
-    ],
     "functions": [
       "deal damage"
     ]
@@ -2871,19 +2789,17 @@
     "defense": 0,
     "power": 0,
     "type": "command",
+    "kin": "cult of na",
     "abilities": [
       "Draw 4 cards.",
       "For each cult of nä kin in play, draw a card"
     ],
     "set": "The Forest",
     "legality": {
-      "bloodless": "y",
       "tournaments": "y",
+      "bloodless": "y",
       "bloodful": "y"
     },
-    "kins": [
-      "cult of nä"
-    ],
     "functions": [
       "draw cards"
     ]
@@ -2913,18 +2829,16 @@
       "tournaments": "y",
       "bloodful": "y"
     },
-    "flavor_text": "They follow heavy thunderstorms.",
     "functions": [
       "shuffle deck",
       "shuffle vestige into deck"
-    ]
+    ],
+    "flavor_text": "They follow heavy thunderstorms."
   },
   {
     "id": "spore_puff",
     "name": "Spore Puff",
-    "description": [
-      "Deal 1 damage to the healh pool.\n\nDraw a card."
-    ],
+    "description": "Deal 1 damage to the healh pool.\n\nDraw a card.",
     "cost": 1,
     "health": 0,
     "defense": 0,
@@ -2935,9 +2849,9 @@
     ],
     "set": "The Forest",
     "legality": {
-      "bloodless": "y",
       "tournaments": "y",
-      "bloodful": "y"
+      "bloodful": "y",
+      "bloodless": "y"
     },
     "functions": [
       "deal damage",
@@ -2947,9 +2861,7 @@
   {
     "id": "slaves_to_power",
     "name": "Slaves to Power",
-    "description": [
-      "Draw all of your Blood Flasks."
-    ],
+    "description": "Draw all of your Blood Flasks.",
     "cost": 3,
     "health": 0,
     "defense": 0,
@@ -2964,34 +2876,30 @@
       "tournaments": "y",
       "bloodful": "y"
     },
-    "flavor_text": "I opened my eyes in the middle of the city of New Vianlai, and saw sixteen blood rarefactors.",
     "functions": [
       "draw card",
       "draw blood flask"
-    ]
+    ],
+    "flavor_text": "I opened my eyes in the middle of the city of New Vianlai, and saw sixteen blood rarefactors."
   },
   {
     "id": "black_knight",
     "name": "Black Knight",
-    "description": [
-      "Black Kingdom Kin\n\nWhen this creature enters the board, search your deck for a \"Black Queen\", reveal it, then put it in your hand.\n\nShuffle."
-    ],
+    "description": "Black Kingdom Kin\n\nWhen this creature enters the board, search your deck for a \"Black Queen\", reveal it, then put it in your hand.\n\nShuffle.",
     "cost": 3,
     "health": 3,
     "defense": 3,
     "power": 2,
     "type": "creature",
-    "kins": [
-      "Black Kingdom"
-    ],
+    "kin": "black kingdom",
     "abilities": [
       "When this creature enters the board, search your deck for a \"Black Queen\", reveal it, then put it in your hand.",
       "Shuffle"
     ],
     "set": "The Black Kingdom",
     "legality": {
-      "bloodless": "y",
       "tournaments": "y",
+      "bloodless": "y",
       "bloodful": "y"
     },
     "functions": [
@@ -3002,17 +2910,13 @@
   {
     "id": "black_squire",
     "name": "Black Squire",
-    "description": [
-      "Black Kingdom Kin\n\nWhile this creature is on the board, Black Kingdom kin creatures gain +1/+1/+0."
-    ],
+    "description": "Black Kingdom Kin\n\nWhile this creature is on the board, Black Kingdom kin creatures gain +1/+1/+0.",
     "cost": 2,
     "health": 1,
     "defense": 0,
     "power": 1,
     "type": "creature",
-    "kins": [
-      "Black Kingdom"
-    ],
+    "kin": "black kingdom",
     "abilities": [
       "While this creature is on the board, Black Kingdom kin creatures gain +1/+1/+0."
     ],
@@ -3030,9 +2934,7 @@
   {
     "id": "black_blood_flask",
     "name": "Black Blood Flask",
-    "description": [
-      "Black Kingdom Kin\n\nWhenever a Black Kingdom kin creature dies, gain 1 blood.\n\nThis flask gives no blood when killed."
-    ],
+    "description": "Black Kingdom Kin\n\nWhenever a Black Kingdom kin creature dies, gain 1 blood.\n\nThis flask gives no blood when killed.",
     "cost": 2,
     "health": 2,
     "defense": 0,
@@ -3044,9 +2946,9 @@
     ],
     "set": "The Black Kingdom",
     "legality": {
+      "bloodful": "y",
       "bloodless": "y",
-      "tournaments": "y",
-      "bloodful": "y"
+      "tournaments": "y"
     },
     "functions": [
       "draw card",
@@ -3056,34 +2958,27 @@
   {
     "id": "mistake",
     "name": "Mistake",
-    "description": [
-      "Black Kingdom Kin\n\nThis creature gives no blood when killed."
-    ],
+    "description": "Black Kingdom Kin\n\nThis creature gives no blood when killed.",
     "cost": 0,
     "health": 1,
     "defense": 1,
     "power": 1,
     "type": "creature",
-    "kins": [
-      "Black Kingdom"
-    ],
+    "kin": "black kingdom",
     "abilities": [
       "This creature gives no blood when killed."
     ],
     "set": "The Black Kingdom",
     "legality": {
-      "bloodless": "y",
+      "bloodful": "y",
       "tournaments": "y",
-      "bloodful": "y"
-    },
-    "functions": []
+      "bloodless": "y"
+    }
   },
   {
     "id": "unwilling_draft",
     "name": "Unwilling Draft",
-    "description": [
-      "Play a creature from your discard pile.\n\nIt enters as a 1/1/1 Black Kingdom kin."
-    ],
+    "description": "Play a creature from your discard pile.\n\nIt enters as a 1/1/1 Black Kingdom kin.",
     "cost": 3,
     "health": 0,
     "defense": 0,
@@ -3094,11 +2989,10 @@
     ],
     "set": "The Black Kingdom",
     "legality": {
-      "bloodless": "y",
       "tournaments": "y",
+      "bloodless": "y",
       "bloodful": "y"
-    },
-    "functions": []
+    }
   },
   {
     "id": "green_pawn",
@@ -3116,9 +3010,7 @@
     "defense": 1,
     "power": 1,
     "type": "creature",
-    "kins": [
-      "green kingdom"
-    ],
+    "kin": "green kingdom",
     "abilities": [
       "When another friendly Green Kingdom kin enters the board, you may discard a card to draw a card."
     ],
@@ -3149,9 +3041,7 @@
     "defense": 1,
     "power": 1,
     "type": "creature",
-    "kins": [
-      "red kingdom"
-    ],
+    "kin": "red kingdom",
     "abilities": [
       "When another friendly Red Kingdom kin enters the board, draw a blood flask"
     ],
@@ -3175,24 +3065,22 @@
         "display": "Black Kingdom kin",
         "search": "t:creature k:\"black kingdom\""
       },
-      " enters the board, you mey move a card from your discard to the top of your deck"
+      " enters the board, you may move a card from your discard to the top of your deck"
     ],
     "cost": 2,
     "health": 1,
     "defense": 1,
     "power": 1,
     "type": "creature",
-    "kins": [
-      "black kingdom"
-    ],
+    "kin": "black kingdom",
     "abilities": [
       "When another friendly Black Kingdom kin enters the board, you mey move a card from your discard to the top of your deck"
     ],
     "set": "The Black Kingdom",
     "legality": {
+      "bloodful": "y",
       "bloodless": "y",
-      "tournaments": "y",
-      "bloodful": "y"
+      "tournaments": "y"
     },
     "functions": [
       "draw blood flask"
@@ -3202,23 +3090,20 @@
   {
     "id": "dr_vats",
     "name": "Dr. Vats",
-    "description": [
-      "Whenever a non-Blood Flask creature moves from the discard pile, gain 1 blood."
-    ],
+    "description": "Whenever a non-Blood Flask creature moves from the discard pile, gain 1 blood.",
     "cost": 3,
     "health": 3,
     "defense": 1,
     "power": 0,
     "type": "creature",
-    "kins": [],
     "abilities": [
       "Whenever a non-Blood Flask creature moves from the discard pile, gain 1 blood."
     ],
     "set": "The Blue Kingdom",
     "legality": {
       "bloodless": "y",
-      "tournaments": "y",
-      "bloodful": "y"
+      "bloodful": "y",
+      "tournaments": "y"
     },
     "functions": [
       "gain blood"
