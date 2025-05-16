@@ -36,8 +36,8 @@ jobs:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
         
     - name: Sync files to home server
-      working-directory: ./files/*
+      working-directory: ./files
       run: |
         rsync -avz --delete \
         -e "ssh -o StrictHostKeyChecking=no" \
-        ./ root@hemolymph.net:/home/hemolymph-static/files
+        ./* root@hemolymph.net:/home/hemolymph-static/files
