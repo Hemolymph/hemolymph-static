@@ -3109,5 +3109,29 @@
       "gain blood"
     ],
     "flavor_text": "His ways were consistent with all of his breakthroughs:\n\nStrange, confusing, and earthshattering.\n\nThis was a man of science.\n\n— Dr. Nadiya Evikza, mentor of Dr. Vats."
+  },
+  {
+    "id": "daemon",
+    "name": "Daemon",
+    "description": "Once per turn, move a creature to your hand and move a creature card from your hand to the previous creature's space.",
+    "cost": 3,
+    "health": 1,
+    "defense": 1,
+    "power": 1,
+    "type": "creature",
+    "abilities": [
+      "Once per turn, move a creature to your hand and move a creature card from your hand to the previous creature's space."
+    ],
+    "set": "Flatland",
+    "legality": {
+      "bloodless": "y",
+      "bloodful": "y",
+      "tournaments": "y"
+    },
+    "functions": [
+      "swap cards",
+      "move card"
+    ],
+    "flavor_text": "I wasn't dead\nWas I dead\nWhat were they doing to us"
   }
 ]
