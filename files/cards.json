@@ -1876,6 +1876,7 @@
   {
     "id": "kitzka_the_thief",
     "name": "Kitzka The Thief",
+    "flip_cost": 1,
     "description": "Assassin Kin\nFlip: 1 Blood\n\nWhen you flip this card, deal one damage to any target.",
     "cost": 1,
     "health": 2,
@@ -1953,6 +1954,7 @@
   {
     "id": "the_mentor",
     "name": "The Mentor",
+    "flip_cost": 3,
     "description": "Assassin Kin\nFlip: 3 Blood\nWhen flipped, give all assassin kin creatures +1/+1/+1",
     "cost": 1,
     "health": 2,
@@ -1976,6 +1978,7 @@
   {
     "id": "assassin_tracker",
     "name": "Assassin Tracker",
+    "flip_cost": 1,
     "description": "Assassin Kin\nFlip: 1 Blood\nWhen flipped, reveal one card from your opponent's hand",
     "cost": 1,
     "health": 1,
@@ -1999,6 +2002,7 @@
   {
     "id": "lairmaster",
     "name": "Lairmaster",
+    "flip_cost": 2,
     "description": "Assassin Kin\nFlip: 2 Blood\nWhen flipped, give +1/+0/+0 to all assassin kin creatures.",
     "cost": 1,
     "health": 2,
