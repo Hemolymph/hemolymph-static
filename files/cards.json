@@ -3137,5 +3137,27 @@
       "move card"
     ],
     "flavor_text": "I wasn't dead\nWas I dead\nWhat were they doing to us"
+  },
+  {
+    "id": "psychological_warfare",
+    "name": "Psychological Warfare",
+    "description": "If target unfriendly creature has a creature to its left and to its right, and is kin with both of them, it damages the spaces to its sides.",
+    "cost": 2,
+    "health": 1,
+    "defense": 1,
+    "power": 1,
+    "type": "command",
+    "abilities": [
+      "If target unfriendly creature has a creature to its left and to its right, and is kin with both of them, it damages the spaces to its sides."
+    ],
+    "set": "None",
+    "legality": {
+      "bloodless": "y",
+      "bloodful": "y",
+      "tournaments": "y"
+    },
+    "functions": [
+      "deal damage"
+    ]
   }
 ]
