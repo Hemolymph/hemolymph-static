@@ -3117,14 +3117,14 @@
   {
     "id": "daemon",
     "name": "Daemon",
-    "description": "Once per turn, move a creature to your hand and move a creature card from your hand to the previous creature's space.",
+    "description": "At the beginning of your turn, move a creature to your hand and move a creature card from your hand to the previous creature's space.",
     "cost": 3,
     "health": 1,
     "defense": 1,
     "power": 1,
     "type": "creature",
     "abilities": [
-      "Once per turn, move a creature to your hand and move a creature card from your hand to the previous creature's space."
+      "At the beginning of your turn, move a creature to your hand and move a creature card from your hand to the previous creature's space."
     ],
     "set": "Flatland",
     "legality": {
