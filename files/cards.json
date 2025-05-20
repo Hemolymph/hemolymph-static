@@ -175,7 +175,7 @@
   {
     "id": "timestopper",
     "name": "Timestopper",
-    "description": "All friendly creatures deal damage.",
+    "description": "Your opponent skips one turn. Move to attack phase.",
     "cost": 7,
     "health": 0,
     "defense": 0,
