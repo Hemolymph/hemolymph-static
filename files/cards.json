@@ -3007,7 +3007,7 @@
         "display": "Green Kingdom kin",
         "search": "t:creature k:\"green kingdom\""
       },
-      " enters the board, you may discard a card to draw a card."
+      " enters the board, you may discard a card then draw a card."
     ],
     "cost": 2,
     "health": 1,
