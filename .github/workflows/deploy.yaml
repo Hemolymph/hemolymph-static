@@ -17,8 +17,7 @@ jobs:
         default: true
         override: true
         
-    - name: Cache
-      uses: Swatinem/rust-cache@v2
+    - uses: Swatinem/rust-cache@v2
       with:
         workspaces: |
           ./tests -> target
