@@ -3231,7 +3231,7 @@
   {
     "id": "another_bloodstone",
     "name": "Another Bloodstone",
-    "description": "When this creature is played, choose target creature.\n\nWhenever another creature dies while the targetted creature has exactly 1 health, the targetted creature gains +1 health.",
+    "description": "When this creature is played, choose a target creature that is not this one.\n\nWhenever another creature dies while the targetted creature has exactly 1 health, the targetted creature gains +1 health.",
     "cost": 2,
     "health": 2,
     "defense": 0,
