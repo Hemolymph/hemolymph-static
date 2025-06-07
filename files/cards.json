@@ -3238,7 +3238,7 @@
     "power": 1,
     "type": "creature",
     "abilities": [
-      "When this creature enters the board, choose target creature.\n\nWhenever another creature dies while the targetted creature has exactly 1 health, the targetted creature gains +1 health."
+      "When this creature is played, choose target creature.\n\nWhenever another creature dies while the targetted creature has exactly 1 health, the targetted creature gains +1 health."
     ],
     "set": "None",
     "legality": {
@@ -3248,6 +3248,7 @@
     },
     "functions": [
       "prevent death"
-    ]
+    ],
+    "flavor_text": "I tried to extend her life, so it would last as long as mine."
   }
 ]
