@@ -17,8 +17,8 @@ jobs:
         default: true
         override: true
         
-    - uses: Swatinem/rust-cache@v2
-      working-directory: ./tests
+    - working-directory: ./tests
+      uses: Swatinem/rust-cache@v2
       with:
         shared-key: "build"
         
