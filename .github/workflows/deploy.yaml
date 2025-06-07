@@ -18,6 +18,7 @@ jobs:
         override: true
         
     - uses: Swatinem/rust-cache@v2
+      working-directory: ./tests
       with:
         shared-key: "build"
         
