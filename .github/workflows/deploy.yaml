@@ -17,10 +17,10 @@ jobs:
         default: true
         override: true
         
-    - working-directory: ./tests
-      uses: Swatinem/rust-cache@v2
+    - uses: Swatinem/rust-cache@v2
       with:
         shared-key: "build"
+      working-directory: ./tests
         
     - name: Test cards.json
       working-directory: ./tests
