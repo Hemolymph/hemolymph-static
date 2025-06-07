@@ -2636,14 +2636,14 @@
   {
     "id": "shadow_of_the_apochoron",
     "name": "Shadow Of The Apochoron",
-    "description": "Once opponent draws a card, draw two cards.",
+    "description": "Until the end of your opponent's turn, whenever your opponent draws a card, draw a card.",
     "cost": 2,
     "health": 0,
     "defense": 0,
     "power": 0,
     "type": "extended command",
     "abilities": [
-      "The next time your opponent draws a card, draw two cards."
+      "Until the end of your opponent's turn, whenever your opponent draws a card, draw a card."
     ],
     "set": "THEIR_WATERS",
     "legality": {
