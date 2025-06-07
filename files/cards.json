@@ -3254,14 +3254,14 @@
   {
     "id": "bunny",
     "name": "Bunny",
-    "description": "When this creature is played, summon a copy of it.",
+    "description": "When you play this card, summon a copy of it.",
     "cost": 1,
     "health": 1,
     "defense": 0,
     "power": 0,
     "type": "creature",
     "abilities": [
-      "When this creature is played, summon a copy of it."
+      "When you play this card, summon a copy of it."
     ],
     "set": "None",
     "legality": {
