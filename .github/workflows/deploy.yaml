@@ -20,8 +20,9 @@ jobs:
     - name: Cache
       uses: Swatinem/rust-cache@v2
       with:
+        workspaces: |
+          ./tests -> target
         shared-key: "build"
-      working-directory: ./tests
         
     - name: Test cards.json
       working-directory: ./tests
