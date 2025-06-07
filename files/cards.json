@@ -1111,7 +1111,7 @@
   {
     "id": "crypt_mantis",
     "name": "Crypt Mantis",
-    "description": "Insect Kin\nBifurcated Strike\n\nAt any point during your setup phase, you may sacrifice any creature.\n\nWhenever you sacrifice a creature, add +1 health or +1 power to this creature.",
+    "description": "Insect Kin\nBifurcated Strike\n\nSacrifice a creature with cost greater than 0 to add +1 health or +1 power to this creature.",
     "cost": 4,
     "health": 3,
     "defense": 2,
@@ -1376,7 +1376,7 @@
   {
     "id": "bee",
     "name": "Bee",
-    "description": "Bee Kin\nKin Strength\n\nWhen this creature deals damage, it is destroyed.",
+    "description": "Bee Kin\nKin Strength\n\nWhen this creature deals damage, it is dies.",
     "cost": 1,
     "health": 1,
     "defense": 0,
@@ -1384,7 +1384,7 @@
     "type": "creature",
     "kin": "bee",
     "abilities": [
-      "This creature is destroyed after it attacks."
+      "When this creature deals damage, it is dies."
     ],
     "set": "The Forest",
     "legality": {
@@ -2665,7 +2665,7 @@
         "display": "Sorcery Kin",
         "search": "k:sorcery"
       },
-      ", all friendly creatures to gain +1 power until end of turn."
+      ", add +1 'Sorcery' counter to this command.\n\nRemove X sorcery counters from this command for each friendly creature to gain X power, then terminate this command."
     ],
     "cost": 3,
     "health": 0,
@@ -2673,7 +2673,7 @@
     "power": 0,
     "type": "extended command",
     "abilities": [
-      "Whenever you play another Sorcery Kin, all friendly creatures gain +1 power until end of turn."
+      "Whenever you play another Sorcery Kin, add +1 'Sorcery' counter to this command.\n\nRemove X sorcery counters from this command for each friendly creature to gain X power, then terminate this command."
     ],
     "set": "The Forest",
     "legality": {
@@ -3182,5 +3182,50 @@
       "revela face-down creature"
     ],
     "flavor_text": "Well, then. I guess now we all know who you aren't.\n\nYou might as well begin by telling us who you are."
+  },
+  {
+    "id": "miscast",
+    "name": "Miscast",
+    "description": "Discard your hand.",
+    "cost": 0,
+    "health": 0,
+    "defense": 0,
+    "power": 0,
+    "type": "command",
+    "abilities": [
+      "Discard your hand."
+    ],
+    "set": "None",
+    "legality": {
+      "bloodless": "y",
+      "bloodful": "y",
+      "tournaments": "y"
+    },
+    "functions": [
+      "discard hand"
+    ],
+    "flavor_text": "...someone isn't graduating this year"
+  },
+  {
+    "id": "green_bishop",
+    "name": "Green Bishop",
+    "description": "When this creature enters the board, choose even or odd.\n\nWhen you play or discard a command with cost of the chosen property, gain 1 blood.",
+    "cost": 0,
+    "health": 0,
+    "defense": 0,
+    "power": 0,
+    "type": "command",
+    "abilities": [
+      "When this creature enters the board, choose even or odd.\n\nWhen you play or discard a command with cost of the chosen property, gain 1 blood."
+    ],
+    "set": "None",
+    "legality": {
+      "bloodless": "y",
+      "bloodful": "y",
+      "tournaments": "y"
+    },
+    "functions": [
+      "gain blood"
+    ]
   }
 ]
