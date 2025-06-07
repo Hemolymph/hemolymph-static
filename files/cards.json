@@ -3227,5 +3227,27 @@
     "functions": [
       "gain blood"
     ]
+  },
+  {
+    "id": "another_bloodstone",
+    "name": "Another Bloodstone",
+    "description": "When this creature enters the board, choose target creature.\n\nWheneer another creature dies while the targetted creature has exactly 1 health, the targetted creature gains +1 health.",
+    "cost": 2,
+    "health": 2,
+    "defense": 0,
+    "power": 1,
+    "type": "creature",
+    "abilities": [
+      "When this creature enters the board, choose target creature.\n\nWheneer another creature dies while the targetted creature has exactly 1 health, the targetted creature gains +1 health."
+    ],
+    "set": "None",
+    "legality": {
+      "bloodless": "y",
+      "bloodful": "y",
+      "tournaments": "y"
+    },
+    "functions": [
+      "prevent death"
+    ]
   }
 ]
