@@ -750,7 +750,7 @@
   {
     "id": "lightning_strike",
     "name": "Lightning Strike",
-    "description": "For this creature's combat, it explodes, then it dies.",
+    "description": "This creature's combat actions are: It explodes, then it dies.",
     "cost": 3,
     "health": 4,
     "defense": 0,
@@ -762,7 +762,7 @@
       }
     ],
     "abilities": [
-      "For this creature's combat, it explodes, then it dies."
+      "This creature's combat actions are: It explodes, then it dies."
     ],
     "set": "The Forest",
     "legality": {
