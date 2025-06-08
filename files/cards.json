@@ -64,7 +64,7 @@
         ]
       }
     ],
-    "description": "Insect Kin\n\nWhen this creature attacks a creature, gain one blood.",
+    "description": "Insect Kin\n\nWhen this creature attacks another, gain one blood.",
     "cost": 1,
     "health": 1,
     "defense": 1,
@@ -72,7 +72,7 @@
     "type": "creature",
     "kin": "insect",
     "abilities": [
-      "When this creature attacks a creature, gain one blood."
+      "When this creature attacks another, gain one blood."
     ],
     "set": "The Forest",
     "legality": {
@@ -175,14 +175,15 @@
   {
     "id": "timestopper",
     "name": "Timestopper",
-    "description": "Your opponent skips one turn. Move to attack phase.",
+    "description": "Your opponent skips one turn. Move to combat phase.",
     "cost": 7,
     "health": 0,
     "defense": 0,
     "power": 0,
     "type": "command",
     "abilities": [
-      "All friendly creatures attack without ending your turn."
+      "Your opponent skips one turn.",
+      "Move to combat phase."
     ],
     "set": "Otherworldly Mysteries",
     "legality": {
@@ -518,7 +519,7 @@
         "display": "Cult Initiate",
         "id": "cult_initiate"
       },
-      "\n\nCan be Called without evolving.\n\nPay 2 blood X times to increase next attack by X."
+      "\n\nCan be Called without evolving.\n\nPay 2 blood X times to increase power by X during next combat."
     ],
     "cost": 2,
     "health": 1,
@@ -749,7 +750,7 @@
   {
     "id": "lightning_strike",
     "name": "Lightning Strike",
-    "description": "Explosive",
+    "description": "For this creature's combat, it explodes, then it dies.",
     "cost": 3,
     "health": 4,
     "defense": 0,
@@ -761,7 +762,7 @@
       }
     ],
     "abilities": [
-      "When this creature attacks, it is destroyed."
+      "For this creature's combat, it explodes, then it dies."
     ],
     "set": "The Forest",
     "legality": {
@@ -998,7 +999,7 @@
   {
     "id": "time_screamer",
     "name": "Time Screamer",
-    "description": "Legendary\n\nIf an attack damages a player, it does not.",
+    "description": "Expendable\n\nWhenever combat causes player damage, it does not.",
     "cost": 1,
     "health": 3,
     "defense": 2,
@@ -1006,11 +1007,11 @@
     "type": "creature",
     "keywords": [
       {
-        "name": "legendary"
+        "name": "expendable"
       }
     ],
     "abilities": [
-      "If an attack damages a player, it does not."
+      "Whenever combat causes player damage, it does not."
     ],
     "set": "The Forest",
     "legality": {
@@ -1185,14 +1186,14 @@
   {
     "id": "spider",
     "name": "Spider",
-    "description": "Every turn, once this creature attacks a creature with 'Ensnared', attack it once more.",
+    "description": "Once per turn, when this creature attacks a creature with 'Ensnared', it attacks it twice instead.",
     "cost": 1,
     "health": 1,
     "defense": 2,
     "power": 1,
     "type": "creature",
     "abilities": [
-      "Every turn, once this creature attacks a creature with 'Ensnared', attack it once more."
+      "Once per turn, when this creature attacks a creature with 'Ensnared', it attacks it twice instead."
     ],
     "set": "The Forest",
     "legality": {
@@ -1213,12 +1214,12 @@
         "display": "Spider",
         "id": "spider"
       },
-      "\nWhen attacked, the attacking creature gains 'Ensnared'.\n\nWhen killed, summon a ",
+      "\nWhen this creature is attacked, the attacking creature gains 'Ensnared'.\n\nWhen this creature is played, summon a ",
       {
         "display": "Spider",
         "id": "spider"
       },
-      " in the space left by this card."
+      " in the space to the left of this creature."
     ],
     "cost": 2,
     "health": 1,
@@ -1349,7 +1350,6 @@
       "bloodless": "y"
     },
     "functions": [
-      "attack creature",
       "draw card"
     ],
     "flavor_text": "Residing deep in shallow waters, observing with a sightless eye, I can't recognize these bodies.\n\n— Ruford Velki, 18 second before death"
