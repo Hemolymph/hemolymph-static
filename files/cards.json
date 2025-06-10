@@ -352,11 +352,12 @@
   {
     "id": "crow",
     "name": "Crow",
-    "description": "Flying",
+    "description": "Bird Kin\n\nFlying",
     "cost": 2,
     "health": 2,
     "defense": 2,
     "power": 1,
+    "kin": "bird",
     "type": "creature",
     "keywords": [
       {
@@ -1800,10 +1801,11 @@
   {
     "id": "bluejay",
     "name": "Bluejay",
-    "description": "Flying\nOne per turn, pay 2 blood to damage the spaces adjacent to the space opposing this creature.",
+    "description": "Bird Kin\nFlying\nOne per turn, pay 2 blood to damage the spaces adjacent to the space opposing this creature.",
     "cost": 3,
     "health": 2,
     "defense": 2,
+    "kin": "bird",
     "power": 1,
     "type": "creature",
     "keywords": [
@@ -3272,5 +3274,23 @@
     "functions": [
       "summon copy"
     ]
+  },
+  {
+    "id": "blackbird",
+    "name": "Blackbird",
+    "description": "Bird Kin\nFlying\nBifurcated Strike",
+    "cost": 3,
+    "health": 2,
+    "defense": 1,
+    "power": 1,
+    "type": "creature",
+    "abilities": [],
+    "set": "None",
+    "legality": {
+      "bloodless": "y",
+      "bloodful": "y",
+      "tournaments": "y"
+    },
+    "functions": []
   }
 ]
