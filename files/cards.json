@@ -211,7 +211,7 @@
         ]
       }
     ],
-    "description": "Blight Kin\nKin Call\nUnlimited\nAt the end of your turn, if you control four \"Blight\" sacrifice all your creatures",
+    "description": "Blight Kin\nKin Call\nUnlimited\nAt the end of your turn, if you control 4 \"Blight\" sacrifice all your creatures",
     "cost": 2,
     "health": 1,
     "defense": 0,
