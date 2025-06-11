@@ -517,10 +517,10 @@
     "description": [
       "Evolves from: ",
       {
-        "display": "Cult Initiate",
+        "display": "\"Cult Initiate\"",
         "id": "cult_initiate"
       },
-      "\n\nCan be Called without evolving.\n\nPay 2 blood X times to increase power by X during next combat."
+      "\n\nCan be Kin Called without evolving.\n\nPay 2 blood X times to increase power by X during next combat."
     ],
     "cost": 2,
     "health": 1,
@@ -628,7 +628,7 @@
         "display": "1 Cost Insect Kin",
         "search": "c:1 k:\"insect\""
       },
-      "\n\nBifurcated Strike\nInsect Kin\n\nWhen this creature attacks a creature, gain one blood."
+      "\n\nBifurcated Strike\nInsect Kin\n\nWhenever this creature attacks a creature, gain 1 blood."
     ],
     "cost": 2,
     "health": 2,
@@ -650,7 +650,7 @@
     ],
     "kin": "insect",
     "abilities": [
-      "When this creature attacks and is blocked, gain one blood"
+      "When this creature attacks and is blocked, gain 1 blood"
     ],
     "set": "The Forest",
     "legality": {
@@ -1187,14 +1187,14 @@
   {
     "id": "spider",
     "name": "Spider",
-    "description": "Once per turn, when this creature attacks a creature with 'Ensnared', it attacks it twice instead.",
-    "cost": 1,
-    "health": 1,
+    "description": "Once per turn, when this creature attacks a creature with Ensnared, it attacks it twice instead.",
+    "cost": 2,
+    "health": 2,
     "defense": 2,
     "power": 1,
     "type": "creature",
     "abilities": [
-      "Once per turn, when this creature attacks a creature with 'Ensnared', it attacks it twice instead."
+      "Once per turn, when this creature attacks a creature with Ensnared, it attacks it twice instead."
     ],
     "set": "The Forest",
     "legality": {
@@ -1212,17 +1212,17 @@
     "description": [
       "Evolves From: ",
       {
-        "display": "Spider",
+        "display": "\"Spider\"",
         "id": "spider"
       },
       "\nWhen this creature is attacked, the attacking creature gains 'Ensnared'.\n\nWhen this creature is played, summon a ",
       {
-        "display": "Spider",
+        "display": "\"Spider\"",
         "id": "spider"
       },
       " in the space to the left of this creature."
     ],
-    "cost": 2,
+    "cost": 1,
     "health": 1,
     "defense": 3,
     "power": 0,
