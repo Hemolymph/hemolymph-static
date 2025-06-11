@@ -8,7 +8,7 @@
         "display": "Insect Kin with Bifurcated Strike",
         "search": "k:insect kw:\"bifurcated strike\""
       },
-      "\n\nUndead Kin\nBifurcated Strike\n\nWhen killed, gain one blood."
+      "\n\nUndead Kin\nBifurcated Strike\n\nWhen this creature is killed, gain 1 blood."
     ],
     "cost": 3,
     "health": 3,
@@ -64,7 +64,7 @@
         ]
       }
     ],
-    "description": "Insect Kin\n\nWhen this creature attacks another, gain one blood.",
+    "description": "Insect Kin\n\nWhen this creature attacks another, gain 1 blood.",
     "cost": 1,
     "health": 1,
     "defense": 1,
@@ -72,7 +72,7 @@
     "type": "creature",
     "kin": "insect",
     "abilities": [
-      "When this creature attacks another, gain one blood."
+      "When this creature attacks another, gain 1 blood."
     ],
     "set": "The Forest",
     "legality": {
