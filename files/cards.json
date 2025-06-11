@@ -3283,6 +3283,7 @@
     "health": 2,
     "defense": 1,
     "power": 1,
+    "kin": "bird",
     "type": "creature",
     "abilities": [],
     "set": "None",
