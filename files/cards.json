@@ -3313,5 +3313,24 @@
       "tournaments": "y"
     },
     "functions": []
+  },
+  {
+    "id": "house_of_solitude",
+    "name": "House Of Solitude",
+    "description": "If your opponent controls only one creature, flip it unless they pay two blood.",
+    "cost": 2,
+    "health": 0,
+    "defense": 0,
+    "power": 0,
+    "kin": "bird",
+    "type": "command",
+    "abilities": [],
+    "set": "None",
+    "legality": {
+      "bloodless": "y",
+      "bloodful": "y",
+      "tournaments": "y"
+    },
+    "functions": []
   }
 ]
