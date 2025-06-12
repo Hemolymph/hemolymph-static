@@ -3294,5 +3294,24 @@
     },
     "functions": [],
     "flavor_text": "The blackbird is involved in what I know."
+  },
+  {
+    "id": "lesser_goldfinch",
+    "name": "Lesser Goldfinch",
+    "description": "Bird Kin\nFlying\n\nThis creature does not give blood when it dies.",
+    "cost": 1,
+    "health": 1,
+    "defense": 0,
+    "power": 1,
+    "kin": "bird",
+    "type": "creature",
+    "abilities": [],
+    "set": "None",
+    "legality": {
+      "bloodless": "y",
+      "bloodful": "y",
+      "tournaments": "y"
+    },
+    "functions": []
   }
 ]
