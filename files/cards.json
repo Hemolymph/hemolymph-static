@@ -2867,7 +2867,7 @@
   {
     "id": "slaves_to_power",
     "name": "Slaves to Power",
-    "description": "Draw all of your Blood Flasks.",
+    "description": "Draw all cards from your Blood Deck.",
     "cost": 3,
     "health": 0,
     "defense": 0,
