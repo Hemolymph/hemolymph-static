@@ -2070,6 +2070,7 @@
     "defense": 0,
     "power": 0,
     "type": "command",
+    "kin": "sorcery",
     "keywords": [
       {
         "name": "sorcery"
@@ -2867,7 +2868,7 @@
   {
     "id": "slaves_to_power",
     "name": "Slaves to Power",
-    "description": "Draw all cards from your Blood Deck.",
+    "description": "Draw all of your Blood Flasks.",
     "cost": 3,
     "health": 0,
     "defense": 0,
