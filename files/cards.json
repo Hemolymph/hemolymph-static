@@ -3323,7 +3323,6 @@
     "health": 0,
     "defense": 0,
     "power": 0,
-    "kin": "bird",
     "type": "command",
     "abilities": [],
     "set": "None",
