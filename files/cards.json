@@ -3213,7 +3213,7 @@
     "id": "green_bishop",
     "name": "Green Bishop",
     "description": "When this creature enters the board, choose even or odd.\n\nWhen you play or discard a command with cost of the chosen property, gain 1 blood.",
-    "cost": 0,
+    "cost": 3,
     "health": 0,
     "defense": 0,
     "power": 0,
@@ -3332,5 +3332,37 @@
       "tournaments": "y"
     },
     "functions": []
+  },
+  {
+    "id": "the_heist",
+    "name": "The Heist",
+    "description": [
+      [
+        "...",
+        "Deal 1 damage to any target",
+        "Gain 2 blood"
+      ]
+    ],
+    "cost": 3,
+    "health": 2,
+    "defense": 1,
+    "power": 1,
+    "type": "creature saga",
+    "abilities": [
+      "When this creature is summoned, put one Lore counter on it.",
+      "At the beginning of your turn, put one Lore counter on this creature.",
+      "When this creature has 2 Lore counter, deal one damage to any target",
+      "When this creature has 3 Lore counters, gain 2 blood"
+    ],
+    "set": "Normality",
+    "legality": {
+      "bloodless": "y",
+      "bloodful": "y",
+      "tournaments": "y"
+    },
+    "functions": [
+      "kitzka"
+    ],
+    "flavor_text": "I opened my eyes inside a dark museum, in front of a painting of myself"
   }
 ]
