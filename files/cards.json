@@ -411,7 +411,7 @@
       "When played, shuffle a new ",
       {
         "display": "\"Grand Design\"",
-        "id": "grand_design"
+        "search": "n=\"Grand Design\""
       },
       " vestige into your deck."
     ],
@@ -463,7 +463,7 @@
       "Search your deck for a ",
       {
         "display": "creature card of blood cost 1",
-        "search": "t:creature c:1"
+        "search": "t:creature c=1"
       },
       ".\n\nPlay it for free.\n\nShuffle."
     ],
@@ -518,7 +518,7 @@
       "Evolves from: ",
       {
         "display": "\"Cult Initiate\"",
-        "id": "cult_initiate"
+        "search": "n=\"Cult Initiate\""
       },
       "\n\nCan be Kin Called without evolving.\n\nPay 2 blood X times to increase power by X during next combat."
     ],
@@ -626,7 +626,7 @@
       "Devours: ",
       {
         "display": "1 Cost Insect Kin",
-        "search": "c:1 k:\"insect\""
+        "search": "c=1 k=\"insect\""
       },
       "\n\nBifurcated Strike\nInsect Kin\n\nWhenever this creature attacks a creature, gain 1 blood."
     ],
@@ -692,7 +692,7 @@
       "Evolves From: ",
       {
         "display": "Follower Of Nä",
-        "id": "follower_of_na"
+        "search": "n=\"Follower Of Nä\""
       },
       "\nCult Of Nä Kin\nKin Strength\nKin Call"
     ],
@@ -1213,12 +1213,12 @@
       "Evolves From: ",
       {
         "display": "\"Spider\"",
-        "id": "spider"
+        "search": "n=\"spider\""
       },
       "\nWhen this creature is attacked, the attacking creature gains 'Ensnared'.\n\nWhen this creature is played, summon a ",
       {
         "display": "\"Spider\"",
-        "id": "spider"
+        "search": "n=\"spider\""
       },
       " in the space to the left of this creature."
     ],
@@ -2239,7 +2239,7 @@
           "Shuffle a ",
           {
             "display": "grand design",
-            "id": "grand_design"
+            "search": "n=\"Grand Design\""
           },
           " vestige into your deck."
         ],
@@ -2313,12 +2313,12 @@
       "If this is your first turn, set the health pool to 1 and gain one blood. At any point, if you have a ",
       {
         "display": "Magic: The Gathering",
-        "id": "magic_the_gathering"
+        "search": "n=\"Magic The Gathering\""
       },
       " in your hand, you can search for this card and reveal it. Shuffle your deck. If this is not your first turn, this command enters the timeline with one Command counter per card on your opponent's hand. Also, add one Command counter whenever your opponent draws a card. If this card has 12 Command counters, you win the game. Any time one of your opponent's creatures attacks an empty space, they may choose to not do so instead. If they choose this, add one Attacked counter. If this card has 3 or more Attacked counters, Liberate it. You may remove up to 3 Command counters from this card to remove that amount of Attacked counters. If you play this card and your opponent has a ",
       {
         "display": "Magic: The Gathering",
-        "id": "magic_the_gathering"
+        "search": "n=\"Magic The Gathering\""
       },
       " they can choose to play it simultaneously as you play this card."
     ],
