@@ -2115,7 +2115,22 @@
   {
     "id": "last_unwisher",
     "name": "Last Unwisher",
-    "description": "When this creature kills another creature, it loses all text",
+    "description": "Before this creature kills another creature, it loses all text",
+    "images": [
+      {
+        "sources": {
+          "Files": [
+            "LastUnwisher1",
+            "LastUnwisher2",
+            "LastUnwisher3",
+            "LastUnwisher4"
+          ]
+        },
+        "authors": [
+          "Katie Ampersand"
+        ]
+      }
+    ],
     "cost": 2,
     "health": 2,
     "defense": 0,
