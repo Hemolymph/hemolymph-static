@@ -2145,6 +2145,7 @@
       "tournaments": "y",
       "bloodful": "y"
     },
+    "flavor_text": "Close your eyes and imagine me there.\n\nInside your shell.",
     "functions": [
       "remove text from creature"
     ]
