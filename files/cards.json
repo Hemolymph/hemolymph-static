@@ -2933,7 +2933,7 @@
   {
     "id": "black_squire",
     "name": "Black Squire",
-    "description": "Black Kingdom Kin\n\nWhile this creature is on the board, Black Kingdom kin creatures gain +1/+1/+0.",
+    "description": "Black Kingdom Kin\n\nWhile a creature is Black Kingdom Kin, it has +1/+1/+0.",
     "cost": 2,
     "health": 1,
     "defense": 0,
@@ -2941,7 +2941,7 @@
     "type": "creature",
     "kin": "black kingdom",
     "abilities": [
-      "While this creature is on the board, Black Kingdom kin creatures gain +1/+1/+0."
+      "While a creature is Black Kingdom Kin, it has +1/+1/+0."
     ],
     "set": "The Black Kingdom",
     "legality": {
