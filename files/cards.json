@@ -1480,7 +1480,7 @@
   {
     "id": "royal_engineer",
     "name": "Royal Engineer",
-    "description": "Blue Kingdom Kin\nKin Call x3\n\nWhen this card attacks, choose which opponent space to attack. If that space has a creature, it loses its text until the end of next turn.",
+    "description": "Blue Kingdom Kin\nKin Call x3\n\nWhenever this creature attacks, it attacks a space chosen by you instead. Then, if that space has a creature, it loses its text until the end of next turn.",
     "cost": 7,
     "health": 4,
     "defense": 1,
