@@ -952,7 +952,7 @@
   {
     "id": "sign",
     "name": "Sign",
-    "description": "Spell\n\nWhen Played: Move any other friendly creature to an empty space to its left or right.",
+    "description": "Expendable\n\nWhen you play this creature, move any other friendly creature to an empty space you control.",
     "cost": 0,
     "health": 1,
     "defense": 0,
@@ -1951,7 +1951,7 @@
       "remove keyword flying",
       "heal creature"
     ],
-    "flavor_text": "Have you ever owned a chicken? The T-Rex is clearly still there"
+    "flavor_text": "Humans compare these birds to ancient lizards from their homeworld"
   },
   {
     "id": "the_mentor",
