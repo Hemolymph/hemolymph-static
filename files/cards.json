@@ -33,9 +33,6 @@
       }
     ],
     "kin": "undead",
-    "abilities": [
-      "When Killed: Gain one additional blood."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -69,9 +66,6 @@
     "power": 1,
     "type": "creature",
     "kin": "insect",
-    "abilities": [
-      "When this creature attacks another, gain 1 blood."
-    ],
     "set": "PROL",
     "legality": {
       "tournaments": "y",
@@ -109,9 +103,6 @@
     "power": 0,
     "type": "command",
     "kin": "blue kingdom",
-    "abilities": [
-      "Pay X blood to sacrifice X creatures."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -152,9 +143,6 @@
     "defense": 0,
     "power": 0,
     "type": "blood flask",
-    "abilities": [
-      ""
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -172,10 +160,6 @@
     "defense": 0,
     "power": 0,
     "type": "command",
-    "abilities": [
-      "Your opponent skips one turn.",
-      "Move to combat phase."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -277,9 +261,6 @@
     "power": 1,
     "type": "creature",
     "kin": "insect",
-    "abilities": [
-      "When Played: Friendly Insect creatures move one space closer to this creature"
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -316,9 +297,6 @@
     "defense": 1,
     "power": 2,
     "type": "creature",
-    "abilities": [
-      "Whenever a friendly creature enters, this creature moves as close to it as possible."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -358,9 +336,6 @@
     "defense": 1,
     "power": 1,
     "type": "creature",
-    "abilities": [
-      "This creature gives no blood when killed."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -395,9 +370,6 @@
     "defense": 0,
     "power": 0,
     "type": "creature",
-    "abilities": [
-      "When Played: Shuffle a \"Grand Design\" vestige into your deck"
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -418,9 +390,6 @@
     "defense": 1,
     "power": 1,
     "type": "creature",
-    "abilities": [
-      "Whenever your opponent summons a creature in an unopposed space, move this creature to the space opposite to it."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -443,9 +412,6 @@
     "defense": 0,
     "power": 0,
     "type": "command",
-    "abilities": [
-      "Search your deck for a creature card of blood cost 1.\n\nPlay it for free.\n\nShuffle."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -465,9 +431,6 @@
     "defense": 1,
     "power": 1,
     "type": "creature",
-    "abilities": [
-      "At the beginning of your turn, one friendly creature gains 'Flying' until the end of your turn."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -504,10 +467,6 @@
       }
     ],
     "kin": "cult of na",
-    "abilities": [
-      "Can be Called without evolving.",
-      "Spend 2 blood X times to increase next attack by X."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -525,9 +484,6 @@
     "defense": 0,
     "power": 1,
     "type": "creature",
-    "abilities": [
-      "Whenever a friendly creature enters the board, draw a card."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -545,9 +501,6 @@
     "defense": 0,
     "power": 0,
     "type": "command vestige",
-    "abilities": [
-      "You win the game."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -567,9 +520,6 @@
     "power": 0,
     "type": "command",
     "kin": "green kingdom",
-    "abilities": [
-      "Draw 2 cards"
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -608,9 +558,6 @@
       }
     ],
     "kin": "insect",
-    "abilities": [
-      "When this creature attacks and is blocked, gain 1 blood"
-    ],
     "set": "PROL",
     "legality": {
       "tournaments": "y",
@@ -629,9 +576,6 @@
     "defense": 0,
     "power": 0,
     "type": "command",
-    "abilities": [
-      "Discard a card to gain 3 blood."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -687,10 +631,6 @@
     "defense": 1,
     "power": 1,
     "type": "creature",
-    "abilities": [
-      "When killing a creature, once your opponent gains an amount of blood, you gain it instead.",
-      "When killed, your opponent gains 1 blood."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -713,9 +653,6 @@
       {
         "name": "explosive"
       }
-    ],
-    "abilities": [
-      "This creature's combat actions are: It explodes, then it dies."
     ],
     "set": "PROL",
     "legality": {
@@ -836,9 +773,6 @@
     "defense": 1,
     "power": 1,
     "type": "creature",
-    "abilities": [
-      "When played, place a \"Broken Robot\" from your hand in the space opposing this card."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -875,10 +809,6 @@
     "power": 0,
     "type": "command",
     "kin": "red kingdom",
-    "abilities": [
-      "Your opponent skips one turn.",
-      "Your turn ends."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -901,9 +831,6 @@
       {
         "name": "spell"
       }
-    ],
-    "abilities": [
-      "When Played: Move any other friendly creature to an empty space to its left or right"
     ],
     "set": "PROL",
     "legality": {
@@ -946,9 +873,6 @@
       {
         "name": "expendable"
       }
-    ],
-    "abilities": [
-      "Whenever combat causes player damage, it does not."
     ],
     "set": "PROL",
     "legality": {
@@ -1029,9 +953,6 @@
     "power": 0,
     "type": "command",
     "kin": "black kingdom",
-    "abilities": [
-      "Draw 2 cards from your opponent's creature deck."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -1055,10 +976,6 @@
       }
     ],
     "kin": "insect",
-    "abilities": [
-      "During your turn, you may sacrifice any creature.",
-      "Whenever you sacrifice a creature, add +1 health or +1 power to this creature."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -1074,9 +991,6 @@
     "power": 0,
     "type": "creature",
     "kin": "reptile",
-    "abilities": [
-      "Pay 1 blood to deal 1 damage to any creature."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -1117,9 +1031,6 @@
     "defense": 2,
     "power": 1,
     "type": "creature",
-    "abilities": [
-      "Once per turn, when this creature attacks a creature with Ensnared, it attacks it twice instead."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -1149,10 +1060,6 @@
     "defense": 3,
     "power": 0,
     "type": "creature",
-    "abilities": [
-      "When Attacked: The attacking creature becomes Ensnared.",
-      "When Killed: Summons a spider in the space left by this card."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -1172,9 +1079,6 @@
     "power": 0,
     "type": "command",
     "kin": "sorcery",
-    "abilities": [
-      "Draw a card"
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -1200,11 +1104,6 @@
     "defense": 0,
     "power": 0,
     "type": "command",
-    "abilities": [
-      "Search your deck for up to 2 sorcery commands.",
-      "Reveal them and put them in your hand.",
-      "Shuffle."
-    ],
     "set": "PROL",
     "legality": {
       "tournaments": "y",
@@ -1226,9 +1125,6 @@
     "power": 0,
     "type": "command",
     "kin": "sorcery",
-    "abilities": [
-      "Deal 2 damage to an unfriendly creature. Then, draw a card."
-    ],
     "set": "PROL",
     "legality": {
       "tournaments": "y",
@@ -1257,9 +1153,6 @@
     "power": 1,
     "type": "creature",
     "kin": "sorcery",
-    "abilities": [
-      "Whenever you execute a sorcery command, draw a card."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -1296,9 +1189,6 @@
     "power": 0,
     "type": "creature",
     "kin": "bee",
-    "abilities": [
-      "When this creature deals damage, it is dies."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -1321,9 +1211,6 @@
     "power": 2,
     "type": "creature",
     "kin": "blue kingdom",
-    "abilities": [
-      "As long as you control another Blue Kingdom creature, your opponent can only play two cards each turn. They may sacrifice X creatures to play X additional cards."
-    ],
     "set": "PROL",
     "legality": {
       "tournaments": "y",
@@ -1348,9 +1235,6 @@
     "power": 1,
     "type": "creature",
     "kin": "blue kingdom",
-    "abilities": [
-      "When another friendly Blue Kingdom creature enters the board, this creature cannot be attacked until the start of your turn."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -1370,9 +1254,6 @@
     "power": 2,
     "type": "creature",
     "kin": "blue kingdom",
-    "abilities": [
-      "During your setup phase, you may move this card to any unobstructed space."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -1397,9 +1278,6 @@
       }
     ],
     "kin": "blue kingdom",
-    "abilities": [
-      "When this card attacks, choose which opponent space to attack. If that space has a creature, it loses its text until the end of next turn."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -1418,9 +1296,6 @@
     "defense": 0,
     "power": 0,
     "type": "command",
-    "abilities": [
-      "Re-summon a creature. Return it to the state it was in before being re-summoned."
-    ],
     "set": "PROL",
     "legality": {
       "tournaments": "y",
@@ -1440,9 +1315,6 @@
     "defense": 0,
     "power": 1,
     "type": "creature",
-    "abilities": [
-      "When this creature is played, name a kin.\n\n Whenever a creature of that kin dies, gain 1 blood."
-    ],
     "set": "PROL",
     "legality": {
       "tournaments": "y",
@@ -1462,9 +1334,6 @@
     "defense": 0,
     "power": 0,
     "type": "command",
-    "abilities": [
-      "Draw three cards."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -1483,10 +1352,6 @@
     "defense": 0,
     "power": 0,
     "type": "command",
-    "abilities": [
-      "You and your opponent draw a card and reveal it.",
-      "Whoever has the card with greatest power, plays it. The other one discards it. If both have equal power, both play the card they drew."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -1532,9 +1397,6 @@
     "defense": 0,
     "power": 0,
     "type": "command",
-    "abilities": [
-      "Add 2 points to the health pool."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -1576,9 +1438,6 @@
     "defense": 0,
     "power": 0,
     "type": "command",
-    "abilities": [
-      "Look at the top 5 cards from your deck. Put one in your hand and discard the rest."
-    ],
     "set": "PROL",
     "legality": {
       "tournaments": "y",
@@ -1598,10 +1457,6 @@
     "defense": 0,
     "power": 0,
     "type": "creature",
-    "abilities": [
-      "When this creature enters the board, draw a card",
-      "When this creature dies, you do not gain any blood."
-    ],
     "set": "PROL",
     "legality": {
       "tournaments": "y",
@@ -1622,9 +1477,6 @@
     "defense": 0,
     "power": 0,
     "type": "creature",
-    "abilities": [
-      "At the beginning of your turn, if you control only this creature, this creature gains +3 power"
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -1640,9 +1492,6 @@
     "defense": 0,
     "power": 0,
     "type": "command",
-    "abilities": [
-      "A creature you control gains Kin Strength until end of turn."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -1669,9 +1518,6 @@
     "defense": 0,
     "power": 0,
     "type": "command",
-    "abilities": [
-      "Put a creature of cost four or less from your discard pile into your hand"
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -1696,9 +1542,6 @@
         "name": "flying"
       }
     ],
-    "abilities": [
-      "One per turn, pay 2 blood to damage the spaces adjacent to the space opposing this creature."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -1716,10 +1559,6 @@
     "defense": 0,
     "power": 0,
     "type": "creature",
-    "abilities": [
-      "At the beginning of your turn, add an Unstable counter to this card.",
-      "Remove ten Unstable counters from this card to win the game."
-    ],
     "set": "PROL",
     "legality": {
       "tournaments": "y",
@@ -1741,9 +1580,6 @@
     "power": 0,
     "type": "command",
     "kin": "sorcery",
-    "abilities": [
-      "Deal 1 damage to each creature"
-    ],
     "set": "PROL",
     "legality": {
       "tournaments": "y",
@@ -1765,9 +1601,6 @@
     "power": 1,
     "type": "creature",
     "kin": "assassin",
-    "abilities": [
-      "When you flip this card, deal one damage to any target."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -1786,9 +1619,6 @@
     "defense": 0,
     "power": 0,
     "type": "command",
-    "abilities": [
-      "All face-down creatures gain a +1/+1/+1 counter"
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -1813,9 +1643,6 @@
     "defense": 0,
     "power": 0,
     "type": "command",
-    "abilities": [
-      "Target friendly creature with Flying loses Flying until the end of turn."
-    ],
     "set": "PROL",
     "legality": {
       "tournaments": "y",
@@ -1838,9 +1665,6 @@
     "power": 2,
     "type": "creature",
     "kin": "assassin",
-    "abilities": [
-      "When flipped, give all assassin kin creatures +1/+1/+1"
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -1860,9 +1684,6 @@
     "power": 2,
     "type": "creature",
     "kin": "assassin",
-    "abilities": [
-      "When flipped, reveal one card from your opponent's hand"
-    ],
     "set": "PROL",
     "legality": {
       "tournaments": "y",
@@ -1883,9 +1704,6 @@
     "power": 1,
     "type": "creature",
     "kin": "assassin",
-    "abilities": [
-      "When flipped, give +1/+0/+0 to all assassin kin creatures."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -1915,10 +1733,6 @@
     "defense": 2,
     "power": 1,
     "type": "command",
-    "abilities": [
-      "Search the bible for one or more excerpts that can be adequately interpreted as Bloodless card rules.",
-      "This card's text is that of the excerpts, in the order they appear."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "n",
@@ -1944,9 +1758,6 @@
         "name": "sorcery"
       }
     ],
-    "abilities": [
-      "One friendly creature gains +2 health."
-    ],
     "set": "PROL",
     "legality": {
       "tournaments": "y",
@@ -1965,10 +1776,6 @@
     "defense": 0,
     "power": 0,
     "type": "creature",
-    "abilities": [
-      "When this creature is attacked, move it to the empty space furthest from it.",
-      "When this creature dies, the creature opposing it explodes for 3."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -2001,9 +1808,6 @@
     "defense": 0,
     "power": 2,
     "type": "creature",
-    "abilities": [
-      "When this creature kills another one, remove the text from the killed creature"
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -2030,9 +1834,6 @@
     "power": 1,
     "type": "creature",
     "kin": "sorcery",
-    "abilities": [
-      "Whenever you execute a sorcery command, gain one blood."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -2051,9 +1852,6 @@
     "defense": 0,
     "power": 1,
     "type": "creature",
-    "abilities": [
-      "At the beginning of your turn, creatures in spaces between this creature and another one identical to it get +2 power until end of turn."
-    ],
     "set": "PROL",
     "legality": {
       "tournaments": "y",
@@ -2092,9 +1890,6 @@
     "defense": 1,
     "power": 1,
     "type": "creature",
-    "abilities": [
-      "If this creature is between two \"Measuring Instrument\", it gets +3 Power"
-    ],
     "set": "PROL",
     "legality": {
       "tournaments": "y",
@@ -2126,14 +1921,6 @@
     "defense": 1,
     "power": 1,
     "type": "creature saga",
-    "abilities": [
-      "When this creature is summoned, put one Lore counter on it.",
-      "At the beginning of your turn, put one Lore counter on this creature.",
-      "When this creature has 1 Lore counter, you may pay one blood to deal 2 damage to any creature.",
-      "When this creature has 2 Lore counters, shuffle a grand design vestige into your deck.",
-      "When this creature has 3 Lore counters, add two points to the health pool.",
-      "When this creature has any other amount of Lore counters, exile it."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -2152,9 +1939,6 @@
     "defense": 0,
     "power": 0,
     "type": "command",
-    "abilities": [
-      "Say a card name and reveal the top card of your deck. You can't use that name the next time you execute this command.\n\nIf it has the name you said, gain 2 blood, put it at the bottom of your deck, and re-execute this command. Otherwise, put it in your hand and shuffle."
-    ],
     "set": "PROL",
     "legality": {
       "tournaments": "y",
@@ -2199,17 +1983,6 @@
     "defense": 0,
     "power": 0,
     "type": "command",
-    "abilities": [
-      "If this is your first turn, set the health pool to 1 and gain one blood.",
-      "At any point, if you have a \"Magic: The Gathering\" in your hand, you can search for this card and reveal it.",
-      "Shuffle your deck.",
-      "If this is not your first turn, this command enters the timeline with one Command counter per card on your opponent's hand. Also, add one Command counter whenever your opponent draws a card.",
-      "If this card has 12 Command coutners, you win the game.",
-      "Any time one of your opponent's creatures attacks an empty space, they may choose to not do so instead. If they choose this, add one Attacked counter.",
-      "If this card has 3 or more Attacked counters, Liberate it.",
-      "You may remove up to 3 Command counters from this card to remove that amount of Attacked counters.",
-      "If you play this card and your opponent has a \"Magic: The Gathering,\" they can choose to play it simultaneously as you play this card."
-    ],
     "set": "PROL",
     "legality": {
       "tournaments": "n",
@@ -2228,9 +2001,6 @@
     "defense": 0,
     "power": 0,
     "type": "command",
-    "abilities": [
-      "Summon a creature from your hand hand face-down. Its Flip cost is equal to its Blood cost."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -2248,9 +2018,6 @@
     "defense": 0,
     "power": 0,
     "type": "command",
-    "abilities": [
-      "Your opponent does not win the game"
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "f",
@@ -2300,9 +2067,6 @@
     "defense": 0,
     "power": 0,
     "type": "command",
-    "abilities": [
-      "Destroy a creature with power 4 or more"
-    ],
     "set": "PROL",
     "legality": {
       "tournaments": "y",
@@ -2319,9 +2083,6 @@
     "defense": 0,
     "power": 0,
     "type": "command",
-    "abilities": [
-      "X is equal to target friendly creature's blood cost.\nDestroy that creature."
-    ],
     "set": "PROL",
     "legality": {
       "tournaments": "y",
@@ -2345,9 +2106,6 @@
     "defense": 0,
     "power": 0,
     "type": "creature",
-    "abilities": [
-      "When this creature is destroyed, reveal a command with cost 2 or less and play it for free."
-    ],
     "set": "PROL",
     "legality": {
       "tournaments": "y",
@@ -2363,9 +2121,6 @@
     "defense": 0,
     "power": 0,
     "type": "command",
-    "abilities": [
-      "Each player reveals a command from their hand or reveals cards from their deck until they reveal a command.\n\nWhichever command has the higher blood cost is played for free.\n\nShuffle."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -2390,9 +2145,6 @@
         "name": "cumulative"
       }
     ],
-    "abilities": [
-      "As your opponent executes a command, you may pay its blood cost to deny it, then remove one accumulate counter from this card."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -2415,9 +2167,6 @@
       {
         "name": "cumulative"
       }
-    ],
-    "abilities": [
-      "Whenever this command accumulates, you may pay twice the blood cost of a command from your hand to link it to this command.\n\nWhenever your opponent executes a command, this card loses one accumulate counter from this command, then all chained commands are executed and immediately finished without discarding them before the opponent's command is executed."
     ],
     "set": "PROL",
     "legality": {
@@ -2454,9 +2203,6 @@
     "defense": 1,
     "power": 1,
     "type": "creature",
-    "abilities": [
-      "Whenever your opponent executes a command with a cost equal to X, it is denied."
-    ],
     "set": "PROL",
     "legality": {
       "tournaments": "y",
@@ -2476,10 +2222,6 @@
     "defense": 2,
     "power": 1,
     "type": "creature",
-    "abilities": [
-      "Wheneven you summon this creature, put all \"Blood Flask\" from your discard pile on the top of your Blood Deck.",
-      "Whenever a friendly \"Blood Flask\" dies, put it on the top of our deck."
-    ],
     "set": "PROL",
     "legality": {
       "tournaments": "y",
@@ -2499,9 +2241,6 @@
     "defense": 0,
     "power": 0,
     "type": "extended command",
-    "abilities": [
-      "Until the end of your opponent's turn, whenever your opponent draws a card, draw a card."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -2527,9 +2266,6 @@
     "defense": 0,
     "power": 0,
     "type": "extended command",
-    "abilities": [
-      "Whenever you play another Sorcery Kin, add +1 'Sorcery' counter to this command.\n\nRemove X sorcery counters from this command for each friendly creature to gain X power, then terminate this command."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -2557,9 +2293,6 @@
     "power": 0,
     "type": "command",
     "kin": "cult of na",
-    "abilities": [
-      "Destroy all creatures not of cult of nä kin"
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -2585,9 +2318,6 @@
     "power": 0,
     "type": "command",
     "kin": "cult of na",
-    "abilities": [
-      "Search your deck for 2 cult of nä kin cards, then put them into your hand. Shuffle."
-    ],
     "set": "PROL",
     "legality": {
       "tournaments": "y",
@@ -2614,9 +2344,6 @@
     "power": 0,
     "type": "command",
     "kin": "cult of na",
-    "abilities": [
-      "All friendly cult of nä kin deal damage twice."
-    ],
     "set": "PROL",
     "legality": {
       "tournaments": "y",
@@ -2643,10 +2370,6 @@
     "power": 0,
     "type": "command",
     "kin": "cult of na",
-    "abilities": [
-      "Draw 4 cards.",
-      "For each cult of nä kin in play, draw a card"
-    ],
     "set": "PROL",
     "legality": {
       "tournaments": "y",
@@ -2672,9 +2395,6 @@
     "defense": 1,
     "power": 1,
     "type": "creature",
-    "abilities": [
-      "When summoned, shuffle 5 new \"Spore Puff\" vestiges into your deck."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -2694,9 +2414,6 @@
     "defense": 0,
     "power": 0,
     "type": "command vestige",
-    "abilities": [
-      "Deal 1 damage to the healh pool.\n\nDraw a card."
-    ],
     "set": "PROL",
     "legality": {
       "tournaments": "y",
@@ -2716,9 +2433,6 @@
     "defense": 0,
     "power": 0,
     "type": "command",
-    "abilities": [
-      "Draw all of your Blood Flasks."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -2739,10 +2453,6 @@
     "power": 2,
     "type": "creature",
     "kin": "black kingdom",
-    "abilities": [
-      "When this creature enters the board, search your deck for a \"Black Queen\", reveal it, then put it in your hand.",
-      "Shuffle"
-    ],
     "set": "PROL",
     "legality": {
       "tournaments": "y",
@@ -2763,9 +2473,6 @@
     "power": 1,
     "type": "creature",
     "kin": "black kingdom",
-    "abilities": [
-      "While a creature is Black Kingdom Kin, it has +1/+1/+0."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -2784,10 +2491,6 @@
     "defense": 0,
     "power": 0,
     "type": "blood flask",
-    "abilities": [
-      "Whenever a Black Kingdom kin creature dies, gain 1 blood.",
-      "This flask gives no blood when killed."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -2807,9 +2510,6 @@
     "power": 1,
     "type": "creature",
     "kin": "black kingdom",
-    "abilities": [
-      "This creature gives no blood when killed."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -2824,9 +2524,6 @@
     "defense": 0,
     "power": 0,
     "type": "command",
-    "abilities": [
-      "Play a creature from your discard pile. It enters as a 1/1/1 Black Kingdom kin."
-    ],
     "set": "PROL",
     "legality": {
       "tournaments": "y",
@@ -2850,9 +2547,6 @@
     "power": 1,
     "type": "creature",
     "kin": "green kingdom",
-    "abilities": [
-      "When another friendly Green Kingdom kin enters the board, you may discard a card to draw a card."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -2879,9 +2573,6 @@
     "power": 1,
     "type": "creature",
     "kin": "red kingdom",
-    "abilities": [
-      "When another friendly Red Kingdom kin enters the board, draw a blood flask"
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -2908,9 +2599,6 @@
     "power": 1,
     "type": "creature",
     "kin": "black kingdom",
-    "abilities": [
-      "When another friendly Black Kingdom kin enters the board, you mey move a card from your discard to the top of your deck"
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -2929,9 +2617,6 @@
     "defense": 1,
     "power": 0,
     "type": "creature",
-    "abilities": [
-      "Whenever a non-Blood Flask creature moves from the discard pile, gain 1 blood."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -2950,9 +2635,6 @@
     "defense": 1,
     "power": 1,
     "type": "creature",
-    "abilities": [
-      "At the beginning of your turn, move a creature to your hand and move a creature card from your hand to the previous creature's space."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -2972,9 +2654,6 @@
     "defense": 1,
     "power": 1,
     "type": "command",
-    "abilities": [
-      "If target unfriendly creature has a creature to its left and to its right, and is kin with both of them, it damages the spaces to its sides."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -2992,9 +2671,6 @@
     "defense": 1,
     "power": 1,
     "type": "command",
-    "abilities": [
-      "Your opponent reveals target face-down creature."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -3013,9 +2689,6 @@
     "defense": 0,
     "power": 0,
     "type": "command",
-    "abilities": [
-      "Discard your hand."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -3034,9 +2707,6 @@
     "defense": 1,
     "power": 1,
     "type": "creature",
-    "abilities": [
-      "When this creature enters the board, choose even or odd.\n\nWhen you play or discard a command with cost of the chosen property, gain 1 blood."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -3054,9 +2724,6 @@
     "defense": 0,
     "power": 1,
     "type": "creature",
-    "abilities": [
-      "When this creature is played, choose target creature.\n\nWhenever another creature dies while the targetted creature has exactly 1 health, the targetted creature gains +1 health."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -3075,9 +2742,6 @@
     "defense": 0,
     "power": 0,
     "type": "creature",
-    "abilities": [
-      "When you play this card, summon a copy of it."
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -3096,7 +2760,6 @@
     "power": 1,
     "kin": "bird",
     "type": "creature",
-    "abilities": [],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -3114,7 +2777,6 @@
     "power": 1,
     "kin": "bird",
     "type": "creature",
-    "abilities": [],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -3130,7 +2792,6 @@
     "defense": 0,
     "power": 0,
     "type": "command",
-    "abilities": [],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
@@ -3152,12 +2813,6 @@
     "defense": 1,
     "power": 1,
     "type": "creature saga",
-    "abilities": [
-      "When this creature is summoned, put one Lore counter on it.",
-      "At the beginning of your turn, put one Lore counter on this creature.",
-      "When this creature has 2 Lore counter, deal one damage to any target",
-      "When this creature has 3 Lore counters, gain 2 blood"
-    ],
     "set": "PROL",
     "legality": {
       "bloodless": "y"
