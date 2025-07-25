@@ -1765,7 +1765,8 @@
     },
     "functions": [
       "heal creature"
-    ]
+    ],
+    "flavor_text": "The blood shed by the body makes its way back inside it"
   },
   {
     "id": "latch_detonator",
