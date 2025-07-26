@@ -2095,7 +2095,7 @@
     "id": "veteran_commander",
     "name": "Veteran Commander",
     "description": [
-      "When this creature is destroyed, reveal a ",
+      "When this creature dies, reveal a ",
       {
         "display": "command with cost 2 or less",
         "search": "t:command c<=2"
