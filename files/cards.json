@@ -1847,7 +1847,7 @@
   {
     "id": "measuring_instrument",
     "name": "Measuring Instrument",
-    "description": "At the beginning of your turn, creatures in spaces between this creature and another one identical to it get +2 power until end of turn.",
+    "description": "At the beginning of your turn, creatures in spaces between this creature and another one identical to it get +1 power until end of turn.",
     "cost": 1,
     "health": 2,
     "defense": 0,
@@ -2448,7 +2448,7 @@
     "id": "black_knight",
     "name": "Black Knight",
     "description": "Black Kingdom Kin\n\nWhen this creature enters the board, search your deck for a \"Black Queen\", reveal it, then put it in your hand.\n\nShuffle.",
-    "cost": 3,
+    "cost": 4,
     "health": 3,
     "defense": 3,
     "power": 2,
