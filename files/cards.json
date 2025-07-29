@@ -2702,7 +2702,7 @@
   {
     "id": "green_bishop",
     "name": "Green Bishop",
-    "description": "GreenKingdomKin\n\nWhen this creature enters the board, choose even or odd.\n\nWhen you play or discard a command with cost of the chosen property, gain 1 blood.",
+    "description": "Green Kingdom Kin\n\nWhen this creature enters the board, choose even or odd.\n\nWhen you play or discard a command with cost of the chosen property, gain 1 blood.",
     "cost": 3,
     "kin": "green kingdom",
     "health": 2,
