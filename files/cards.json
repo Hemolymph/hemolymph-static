@@ -1847,7 +1847,7 @@
   {
     "id": "measuring_instrument",
     "name": "Measuring Instrument",
-    "description": "At the beginning of your turn, creatures in spaces between this creature and another one identical to it get +1 power until end of turn.",
+    "description": "At the beginning of your turn, creatures in spaces between this creature and another instance of it get +1 power until end of turn.",
     "cost": 1,
     "health": 2,
     "defense": 0,
