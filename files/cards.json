@@ -2135,7 +2135,7 @@
   {
     "id": "circle_of_consequence",
     "name": "Circle Of Consequence",
-    "description": "Cumulative\n\nAs your opponent executes a command, you may pay its blood cost to discard it and for it to not be executed, then remove one cumulative counter from this card.",
+    "description": "Cumulative\n\nWhenever your opponent plays a command, if you pay its blood cost, it is not played and this command loses one Accumulate counter.",
     "cost": 1,
     "health": 0,
     "defense": 0,
@@ -2158,7 +2158,7 @@
   {
     "id": "spell_ring",
     "name": "Spell Ring",
-    "description": "Cumulative\n\nWhenever this command accumulates, you may pay twice the blood cost of a command from your hand to link it to this command.\n\nWhenever your opponent executes a command, this card loses one accumulate counter from this command, then all chained commands are executed and immediately finished without discarding them before the opponent's command is executed.",
+    "description": "Cumulative\n\nWhenever this command accumulates, you may pay twice the blood cost of a non-extended command from your hand to link it to this command.\n\nBefore your opponent executes a command, this command loses one accumulate counter, then all chained commands are executed without discarding.",
     "cost": 0,
     "health": 0,
     "defense": 0,
@@ -2198,7 +2198,7 @@
         ]
       }
     ],
-    "description": "Whenever your opponent executes a command with a cost equal to X, it is denied.",
+    "description": "Whenever your opponent executes a command with cost equal to X, it is discarded instead.",
     "cost": "X",
     "health": "X",
     "defense": 1,
