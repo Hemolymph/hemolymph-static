@@ -822,7 +822,7 @@
     "id": "sign",
     "name": "Sign",
     "description": "Expendable\n\nWhen you play this creature, move any other friendly creature to an empty space you control.",
-    "cost": 0,
+    "cost": 1,
     "health": 1,
     "defense": 0,
     "power": 0,
