@@ -2255,7 +2255,7 @@
     "id": "luna",
     "name": "Luna",
     "description": [
-      "Whenever you play another ",
+      "Sorcery Kin\n\nWhenever you play another ",
       {
         "display": "Sorcery Kin",
         "search": "k:sorcery"
