@@ -2755,6 +2755,14 @@
   {
     "id": "blackbird",
     "name": "Blackbird",
+    "keywords": [
+      {
+        "name": "flying"
+      },
+      {
+        "name": "bifurcated strike"
+      }
+    ],
     "description": "Bird Kin\nFlying\nBifurcated Strike",
     "cost": 3,
     "health": 2,
@@ -2772,6 +2780,11 @@
   {
     "id": "lesser_goldfinch",
     "name": "Lesser Goldfinch",
+    "keywords": [
+      {
+        "name": "flying"
+      }
+    ],
     "description": "Bird Kin\nFlying\n\nThis creature does not give blood when it dies.",
     "cost": 1,
     "health": 1,
